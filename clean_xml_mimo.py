@@ -4,41 +4,47 @@ import re
 
 
 
-# opens the file, reads it then close it
+# open the file, read it then close it
 xmlFile = open("keywords.xml", "r")
 xmlContent = xmlFile.read()
 xmlFile.close()
 
-# mends the closing tag (replaces <keywords/> with </keywords>)
+
+# mend the closing tag (replaces <keywords/> with </keywords>)
 xmlContent = xmlContent.replace("<keywords/>", "</keywords>")
 
-# removes all Idesia nodes (but not their content)
+
+# remove all Idesia nodes (but not their content)
 xmlContent = xmlContent.replace("<Idesia>", "")
 xmlContent = xmlContent.replace("</Idesia>", "")
 
-# removes all Thesaurus nodes (with their content)
+
+# remove all Thesaurus nodes (with their content)
 xmlContent = re.sub('<thesaurus>.*?</thesaurus>', '', xmlContent)
 
+# remove all declarations in keywords tag
+xmlContent = re.sub('<keywords.*?>', '<keywords>', xmlContent)
 
 
+def stripZeros(eidPart):
+	numericValue = int(eidPart.group(0))
+	return str(numericValue)
 
-#for each eid node
-eidNodes = re.findall('<eid>.*?</eid>', xmlContent)
-for eidNode in eidNodes:
-	print eidNode
-	# finds the numeric value
-	numericValue = eidNode.replace("<eid>LEXICON_", "")
-	numericValue = numericValue.replace("</eid>", "")
-	numericValue = int(numericValue)
-	# adds it as an attribute of the eid node
-	print numericValue
-	xmlContent = eidNode.replace(eidNode, "<eid id='" + str(numericValue) + "'>")
-	print eidNode
-	break
+def addIdToEid(eidNode):
+	eid = re.search('LEXICON_[\d_]+', eidNode.group(0)).group(0)	
+	# find the numeric value
+	id = re.sub(r'\d+', stripZeros, eid)
 
-print eidNodes
+	# add it as an attribute of the eid node
+	return "<eid id='" + id + "'>" + eid + "</eid>" 
 
-# opens new file to write, puts the content and closes
+pattern = re.compile('<eid>LEXICON_[\d_]+</eid>')
+xmlContent = pattern.sub(addIdToEid, xmlContent)
+
+
+#print xmlContent
+
+# open new file to write, put the content and close
 newXmlFile = open("keywords_cleaned.xml", "w")
 newXmlFile.write(xmlContent)
 newXmlFile.close()

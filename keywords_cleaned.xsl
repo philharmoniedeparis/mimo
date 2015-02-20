@@ -30,18 +30,12 @@
       xmlns:owl="http://www.w3.org/2002/07/owl#"
       xmlns:dc="http://purl.org/dc/elements/1.1/"	>
       
-      <!--Thésaurus-->
-      <!--xsl:apply-templates select="/Idesia/thesaurus[@form=$defaultForm]"/-->
-      <!--<xsl:apply-templates select="thesaurus"/>-->
-      <!-- Termes en forme 0-->
-      <!--xsl:apply-templates select="/Idesia/term[language='DEFAULT_FORM']"/-->
-      <xsl:apply-templates select="term"/>
-    </rdf:RDF>
+
 
 
     <!-- Concepts -->
     <xsl:for-each select="term">
-      <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{local:FormatId(string(substring-after(eid,'_')))}">
+      <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
   
         <!-- libellé forme 0-->
         <xsl:if test="string(label)!=''">
@@ -136,7 +130,7 @@
         <xsl:for-each select="relation[type='BT']">
   
           <skos:broader>
-            <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{local:FormatId(string(substring-after(eid,'_')))}">
+            <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
               <skos:prefLabel>
                 <xsl:value-of select="label"/>
               </skos:prefLabel>
@@ -148,7 +142,7 @@
         <xsl:for-each select="relation[type='NT']">
   
           <skos:narrower>
-            <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{local:FormatId(string(substring-after(eid,'_')))}">
+            <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
               <skos:prefLabel>
                 <xsl:value-of select="label"/>
               </skos:prefLabel>
@@ -160,7 +154,7 @@
         <xsl:for-each select="relation[type='RT']">
   
           <skos:related>
-            <skos:Concept rdf:about="{$RelatedBaseUrl}/{local:FormatId(string(substring-after(eid,'_')))}">
+            <skos:Concept rdf:about="{$RelatedBaseUrl}/{eid/@id}">
               <skos:prefLabel>
                 <xsl:value-of select="label"/>
               </skos:prefLabel>
@@ -182,29 +176,11 @@
       </skos:Concept>
     </xsl:for-each>
     
+    
+    </rdf:RDF>
+    
   </xsl:template>
 
-  <msxsl:script implements-prefix="local" language="C#">
-
-    public string FormatId(string str) {
-      string [] arr,arr2;
-      int id;
-      string result;
-      if (str.Contains("_"))
-      {
-        arr = str.Split('_');
-        id = Convert.ToInt32(arr[0]);
-        result = string.Concat(Convert.ToString(id),'_',arr[arr.Length-1]);
-      }
-      else
-      {
-        id = Convert.ToInt32(str);
-        result = Convert.ToString(id);
-      }
-      return result;
-    }
-
-  </msxsl:script>
 
 </xsl:stylesheet>
 
