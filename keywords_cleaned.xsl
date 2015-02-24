@@ -15,11 +15,18 @@
   
   
   <xsl:template match="term" mode="ConceptSchemeMusicalInstrument">
-    <xsl:if test="not(relation[type='BT'])">
-      <xsl:value-of select="not(relation[type='BT'])"></xsl:value-of>
-      <skos:hasTopConcept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}"><xsl:value-of select="label"/></skos:hasTopConcept>
-    </xsl:if>
-  
+    <xsl:choose>
+      <xsl:when test="not(relation)">
+       
+      </xsl:when>
+      <xsl:when test="not(relation[type='BT']) and not(relation[type='NT'])">
+        <xsl:value-of select="not(relation[type='NT'])"></xsl:value-of>
+      </xsl:when>
+      <xsl:when test="(relation[type='NT'])">
+        <xsl:value-of select="not(relation[type='BT'])"></xsl:value-of>
+        <skos:hasTopConcept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}"><xsl:value-of select="label"/></skos:hasTopConcept>
+      </xsl:when>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="term" mode="ConceptSchemeHornbostelSachs">
