@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xsl:stylesheet>
 
-<!-- Corrections par Rodolphe le 25/07/2011 à 15:15 --> 
-<!-- 1- Suppression du template Idesia / Thesaurus  (pointait vers des liens inexistants)--> 
-<!-- 2- Suppression de l'attribut "definition" redondant avec skos:definition--> 
-<!-- 2- Suppression de l'attribut renommé l'élément "skos:definion" en "skos:definition"--> 
-
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:msxsl="urn:schemas-microsoft-com:xslt"  xmlns:local="#local-functions" exclude-result-prefixes="msxsl"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -20,21 +14,20 @@
   <xsl:variable name="RelatedBaseUrl" select="www.mimo-db.eu/HornbostelAndSachs"></xsl:variable>
   
   
+  <xsl:template match="term" mode="ConceptSchemeMusicalInstrument">
+    <xsl:if test="not(relation[type='BT'])">
+      <xsl:value-of select="not(relation[type='BT'])"></xsl:value-of>
+      <skos:hasTopConcept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}"><xsl:value-of select="label"/></skos:hasTopConcept>
+    </xsl:if>
   
-  <xsl:template match="keywords">
+  </xsl:template>
+  
+  <xsl:template match="term" mode="ConceptSchemeHornbostelSachs">
     
-    <rdf:RDF
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-      xmlns:owl="http://www.w3.org/2002/07/owl#"
-      xmlns:dc="http://purl.org/dc/elements/1.1/"	>
-      
+  </xsl:template>
+  
+  <xsl:template match="term" mode="Concepts">
 
-
-
-    <!-- Concepts -->
-    <xsl:for-each select="term">
       <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
   
         <!-- libellé forme 0-->
@@ -131,10 +124,6 @@
   
           <skos:broader>
             <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
-              <skos:prefLabel>
-                <xsl:value-of select="label"/>
-              </skos:prefLabel>
-              <skos:inScheme rdf:resource="{$InstrumentsBaseUrl}/" />
             </skos:Concept>
           </skos:broader>
         </xsl:for-each>
@@ -143,24 +132,14 @@
   
           <skos:narrower>
             <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
-              <skos:prefLabel>
-                <xsl:value-of select="label"/>
-              </skos:prefLabel>
-              <skos:inScheme rdf:resource="{$InstrumentsBaseUrl}/" />
             </skos:Concept>
           </skos:narrower>
         </xsl:for-each>
         <!--relatifs-->
         <xsl:for-each select="relation[type='RT']">
-  
-          <skos:related>
-            <skos:Concept rdf:about="{$RelatedBaseUrl}/{eid/@id}">
-              <skos:prefLabel>
-                <xsl:value-of select="label"/>
-              </skos:prefLabel>
-              <skos:inScheme rdf:resource="{$RelatedBaseUrl}/" />
-            </skos:Concept>
-          </skos:related>
+          <skos:exactMatch>
+            <skos:Concept rdf:about="{$RelatedBaseUrl}/{eid/@id}"></skos:Concept>
+          </skos:exactMatch>
         </xsl:for-each>
   
         <xsl:if test="applicationNote">
@@ -174,13 +153,30 @@
           </skos:definition>
         </xsl:if>
       </skos:Concept>
-    </xsl:for-each>
     
-    
+  </xsl:template>
+  
+  <xsl:template match="keywords">
+    <rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+      xmlns:owl="http://www.w3.org/2002/07/owl#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"	>
+      
+      <skos:ConceptScheme rdf:about="{$InstrumentsBaseUrl}">
+        <skos:prefLabel xml:lang="">Musical Instruments</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Musical Instruments</skos:prefLabel> 
+        <xsl:apply-templates select="term" mode="ConceptSchemeMusicalInstrument" />
+      </skos:ConceptScheme>
+      
+      <skos:ConceptScheme rdf:about="{$RelatedBaseUrl}">
+        <xsl:apply-templates select="term" mode="ConceptSchemeHornbostelSachs" />
+      </skos:ConceptScheme>
+      
+      <xsl:apply-templates select="term" mode="Concepts" />
+      
     </rdf:RDF>
     
   </xsl:template>
-
-
 </xsl:stylesheet>
-
