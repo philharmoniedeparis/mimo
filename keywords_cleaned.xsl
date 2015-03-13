@@ -29,12 +29,9 @@
     </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="term" mode="ConceptSchemeHornbostelSachs">
-    
-  </xsl:template>
   
   <xsl:template match="term" mode="Concepts">
-
+    <xsl:if test="eid/@id != 'LEXICON_2204'">
       <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
   
         <!-- libellé forme 0-->
@@ -160,7 +157,7 @@
           </skos:definition>
         </xsl:if>
       </skos:Concept>
-    
+    </xsl:if>
   </xsl:template>
   
   <xsl:template match="keywords">
@@ -176,10 +173,7 @@
         <skos:prefLabel xml:lang="en">Musical Instruments</skos:prefLabel> 
         <xsl:apply-templates select="term" mode="ConceptSchemeMusicalInstrument" />
       </skos:ConceptScheme>
-      
-      <skos:ConceptScheme rdf:about="{$RelatedBaseUrl}">
-        <xsl:apply-templates select="term" mode="ConceptSchemeHornbostelSachs" />
-      </skos:ConceptScheme>
+   
       
       <xsl:apply-templates select="term" mode="Concepts" />
       
