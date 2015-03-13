@@ -10,16 +10,73 @@
   
   <xsl:output method="xml" indent="yes"/>
   
-  <xsl:variable name="InstrumentsBaseUrl" select="www.mimo-db.eu/InstrumentsKeywords"></xsl:variable>
-  <xsl:variable name="RelatedBaseUrl" select="www.mimo-db.eu/HornbostelAndSachs"></xsl:variable>
+  <xsl:variable name="InstrumentsBaseUrl" select="'http://www.mimo-db.eu/InstrumentsKeywords'"></xsl:variable>
+  <xsl:variable name="RelatedBaseUrl" select="'http://www.mimo-db.eu/HornbostelAndSachs'"></xsl:variable>
   
   
-  <xsl:template match="term" mode="ConceptSchemeMusicalInstrument">
+  <xsl:template match="term" mode="ConceptSchemeMusicalInstrumentName">
+      <xsl:if test="(eid='LEXICON_00002204')">
+        <!-- libellé forme 0-->
+        <xsl:if test="string(label)!=''">
+          <skos:prefLabel>
+            <xsl:if test="normalize-space(language)!=''">
+              <xsl:variable name="language">
+                <xsl:choose>
+                  <xsl:when test="language='0'"></xsl:when>
+                  <xsl:when test="language='1'">en</xsl:when>
+                  <xsl:when test="language='2'">fr</xsl:when>
+                  <xsl:when test="language='3'">it</xsl:when>
+                  <xsl:when test="language='4'">de</xsl:when>
+                  <xsl:when test="language='5'">nl</xsl:when>
+                  <xsl:when test="language='6'">sv</xsl:when>
+                  <xsl:when test="language='7'">ca</xsl:when>
+                </xsl:choose>
+              </xsl:variable>
+              <xsl:attribute name="xml:lang"><xsl:value-of select="$language"/></xsl:attribute>
+            </xsl:if>
+            <xsl:value-of select="label"/>
+          </skos:prefLabel>
+        </xsl:if>
+        
+        <!-- traductions -->
+        <xsl:for-each select="relation[type='LE']">
+          <xsl:variable name="termEid"><xsl:value-of select="eid"/></xsl:variable>
+          <xsl:variable name="language">
+            <xsl:choose>
+              <xsl:when test="language='0'"></xsl:when>
+              <xsl:when test="language='1'">en</xsl:when>
+              <xsl:when test="language='2'">fr</xsl:when>
+              <xsl:when test="language='3'">it</xsl:when>
+              <xsl:when test="language='4'">de</xsl:when>
+              <xsl:when test="language='5'">nl</xsl:when>
+              <xsl:when test="language='6'">sv</xsl:when>
+              <xsl:when test="language='7'">ca</xsl:when>
+            </xsl:choose>
+          </xsl:variable>
+          
+          
+          <skos:prefLabel>
+            <xsl:if test="normalize-space(language)!=''">
+              <xsl:attribute name="xml:lang"><xsl:value-of select="$language"/></xsl:attribute>
+            </xsl:if>
+            <xsl:value-of select="label"/>
+          </skos:prefLabel>
+          
+        </xsl:for-each>
+      </xsl:if>
+  </xsl:template>
+  
+  <xsl:template match="term" mode="ConceptSchemeMusicalInstrumentTopConcept">
     <xsl:if test="(relation[type='BT']) and(relation[eid='LEXICON_00002204'])">
       <skos:hasTopConcept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}"><xsl:value-of select="label"/></skos:hasTopConcept> 
     </xsl:if>
   </xsl:template>
   
+  <!--<xsl:template match="term" mode="ConceptSchemeHornbostelSachs">
+    <xsl:if test="(relation[type='BT']) and(relation[eid='LEXICON_00002204'])">
+      <skos:hasTopConcept rdf:about="{$RelatedBaseUrl}/{eid/@id}"><xsl:value-of select="label"/></skos:hasTopConcept> 
+    </xsl:if>
+  </xsl:template>-->
   
   <xsl:template match="term" mode="Concepts">
     <xsl:if test="eid/@id != 'LEXICON_2204'">
@@ -147,6 +204,9 @@
             <xsl:value-of select="explainNote"/>
           </skos:definition>
         </xsl:if>
+        
+        <skos:inScheme rdf:resource="{$InstrumentsBaseUrl}"/>
+        
       </skos:Concept>
     </xsl:if>
   </xsl:template>
@@ -160,11 +220,14 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/"	>
       
       <skos:ConceptScheme rdf:about="{$InstrumentsBaseUrl}">
-        <skos:prefLabel xml:lang="">Musical Instruments</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Musical Instruments</skos:prefLabel> 
-        <xsl:apply-templates select="term" mode="ConceptSchemeMusicalInstrument" />
+        <xsl:apply-templates select="term" mode="ConceptSchemeMusicalInstrumentName" />
+        <xsl:apply-templates select="term" mode="ConceptSchemeMusicalInstrumentTopConcept" />
       </skos:ConceptScheme>
       
+      <!--<skos:ConceptScheme rdf:about="{$RelatedBaseUrl}">
+        <skos:prefLabel xml:lang="en">Hornbostel - Sachs</skos:prefLabel>
+        <xsl:apply-templates select="term" mode="ConceptSchemeHornbostelSachs" />
+      </skos:ConceptScheme>-->
       
       <xsl:apply-templates select="term" mode="Concepts" />
       
