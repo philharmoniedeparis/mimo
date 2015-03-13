@@ -163,10 +163,24 @@
         
         <!-- synonyme : forme 0-->
         <xsl:for-each select="relation[type='UF']">
-          <xsl:variable name="termEid"><xsl:value-of select="eid"/></xsl:variable>
-          <xsl:for-each select="/Idesia/term[eid=$termEid]">
-            <skos:altLabel xml:lang="{language}"><xsl:value-of select="label"/></skos:altLabel>
-          </xsl:for-each>
+          <xsl:variable name="language">
+            <xsl:choose>
+              <xsl:when test="language='0'"></xsl:when>
+              <xsl:when test="language='1'">en</xsl:when>
+              <xsl:when test="language='2'">fr</xsl:when>
+              <xsl:when test="language='3'">it</xsl:when>
+              <xsl:when test="language='4'">de</xsl:when>
+              <xsl:when test="language='5'">nl</xsl:when>
+              <xsl:when test="language='6'">sv</xsl:when>
+              <xsl:when test="language='7'">ca</xsl:when>
+            </xsl:choose>
+          </xsl:variable>
+          <skos:altLabel>
+            <xsl:if test="normalize-space(language)!=''">
+              <xsl:attribute name="xml:lang"><xsl:value-of select="$language"/></xsl:attribute>
+            </xsl:if>
+            <xsl:value-of select="label"/>
+          </skos:altLabel>
         </xsl:for-each>
         
         
