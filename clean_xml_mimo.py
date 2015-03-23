@@ -36,7 +36,22 @@ xmlContent = re.sub('<keywords.*?>', '<keywords>', xmlContent)
 xmlContent = re.sub('<term><eid>LEXICON_[\d_]+_[\d_]+</eid>.*?</term>', '', xmlContent)
 
 
-# find the numeric value
+# open cvs file with wikipedia links 
+import csv
+cr = csv.reader(open("MIMOwikipedia.csv","rU"),  delimiter=';')
+
+# transform wikipedia in dbpedia links
+pattern = re.compile('en.wikipedia.org/wiki/')
+xmlContent = pattern.sub('dbpedia.org/resource', xmlContent)
+
+dbpedia = {};
+
+for row in cr:
+	if row[7] :
+		dbpedia[row[0]] = row[7]
+
+
+# find the dbpedia link
 def stripZeros(eidPart):
 	numericValue = int(eidPart.group(0))
 	return str(numericValue)
@@ -48,8 +63,15 @@ def addIdToEid(eidNode):
 	# find the numeric value
 	id = re.sub(r'\d+', stripZeros, eid)
 
+	newnode = "<eid id='" + id + "'>" + eid + "</eid>"
+
+	if eid in dbpedia :
+		newnode += "<dbpedia>" + dbpedia[eid] + "</dbpedia>"
+
+	print newnode
+
 	# add it as an attribute of the eid node
-	return "<eid id='" + id + "'>" + eid + "</eid>" 
+	return newnode
 
 
 pattern = re.compile('<eid>LEXICON_[\d_]+</eid>')
