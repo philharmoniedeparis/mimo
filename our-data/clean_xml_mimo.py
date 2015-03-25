@@ -15,11 +15,13 @@ xmlContent = xmlContent.replace("<keywords/>", "</keywords>")
 
 
 # remove all Idesia nodes (but not their content)
+# to make the xml more readable
 xmlContent = xmlContent.replace("<Idesia>", "")
 xmlContent = xmlContent.replace("</Idesia>", "")
 
 
 # remove all Thesaurus nodes (with their content)
+# same node repeated for each term with no valuable info
 xmlContent = re.sub('<thesaurus>.*?</thesaurus>', '', xmlContent)
 
 
@@ -33,14 +35,17 @@ xmlContent = re.sub('<keywords.*?>', '<keywords>', xmlContent)
 # (one for each language)
 # but all languages are already described in LEXICON_00003788
 # so these are duplicates
-xmlContent = re.sub('<term><eid>LEXICON_[\d_]+_[\d_]+</eid>.*?</term>', '', xmlContent)
+# in fact we will need these to extract the synonyms based on one language only
+# xmlContent = re.sub('<term><eid>LEXICON_[\d_]+_[\d_]+</eid>.*?</term>', '', xmlContent)
+# instead will we indicate the id of the referent (parent="")
 
 
-# open cvs file with wikipedia links 
+# open cvs file with wikipedia links
+# in the fututre these links will be stored in the database and be part of the export
 import csv
 cr = csv.reader(open("MIMOwikipedia.csv","rU"),  delimiter=';')
 
-# transform wikipedia in dbpedia links
+# transform all wikipedia in dbpedia links
 pattern = re.compile('en.wikipedia.org/wiki/')
 xmlContent = pattern.sub('dbpedia.org/resource', xmlContent)
 
@@ -53,24 +58,27 @@ for row in cr:
 
 # find the dbpedia link
 def stripZeros(eidPart):
-	numericValue = int(eidPart.group(0))
-	return str(numericValue)
+	numericValue = int(eidPart.group(2))
+	if eidPart.group(3) :
+		return " referent='" + str(numericValue) + "'"
+	else :
+		return " id='" + str(numericValue) + "'"
 
 
 # add the id to the eid node
 def addIdToEid(eidNode):
 	eid = re.search('LEXICON_[\d_]+', eidNode.group(0)).group(0)	
 	# find the numeric value
-	id = re.sub(r'\d+', stripZeros, eid)
+	id = re.sub(r'(LEXICON_)([\d]+)([_\d]*)', stripZeros, eid)
 
-	newnode = "<eid id='" + id + "'>" + eid + "</eid>"
+
+	newnode = "<eid" + id + ">" + eid + "</eid>"
 
 	if eid in dbpedia :
 		newnode += "<dbpedia>" + dbpedia[eid] + "</dbpedia>"
 
-	print newnode
-
 	# add it as an attribute of the eid node
+
 	return newnode
 
 
