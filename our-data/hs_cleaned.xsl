@@ -12,7 +12,16 @@
   
   <xsl:variable name="InstrumentsBaseUrl" select="'http://www.mimo-db.eu/HornbostelAndSachs'"></xsl:variable>
   <xsl:variable name="RelatedBaseUrl" select="'http://www.mimo-db.eu/InstrumentsKeywords'"></xsl:variable>
-  
+  <xsl:variable name="Languages">
+    <i key="0">en</i>
+    <i key="1">en</i>
+    <i key="2">fr</i>
+    <i key="3">it</i>
+    <i key="4">de</i>
+    <i key="5">nl</i>
+    <i key="6">sv</i>
+    <i key="7">ca</i>
+  </xsl:variable>
   
   <xsl:template match="hs">
     <rdf:RDF
@@ -33,202 +42,118 @@
     
   </xsl:template>
   
-  
+  <!-- Concept Scheme : term with id LEXICON_00000000, "Hornbostel & Sachs" -->
   <xsl:template match="term" mode="ConceptSchemeHornbostelSachs">
     <xsl:if test="(eid='LEXICON_00000000')">
 
-        <!-- libellé forme 0-->
+      <!-- Prefered Label in the main language -->
         <xsl:if test="string(label)!=''">
-          <skos:prefLabel>
-            <xsl:if test="normalize-space(language)!=''">
-              <xsl:variable name="language">
-                <xsl:choose>
-                  <xsl:when test="language='0'"></xsl:when>
-                  <xsl:when test="language='1'">en</xsl:when>
-                  <xsl:when test="language='2'">fr</xsl:when>
-                  <xsl:when test="language='3'">it</xsl:when>
-                  <xsl:when test="language='4'">de</xsl:when>
-                  <xsl:when test="language='5'">nl</xsl:when>
-                  <xsl:when test="language='6'">sv</xsl:when>
-                  <xsl:when test="language='7'">ca</xsl:when>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:attribute name="xml:lang"><xsl:value-of select="$language"/></xsl:attribute>
-            </xsl:if>
+          <xsl:variable name="language" select="language" />
+          <skos:prefLabel>     
+            <xsl:attribute name="xml:lang" select="$Languages/i[@key=$language]" />
             <xsl:value-of select="label"/>
           </skos:prefLabel>
         </xsl:if>
-        
-        <!-- traductions -->
-        <xsl:for-each select="relation[type='LE']">
-          <xsl:variable name="termEid"><xsl:value-of select="eid"/></xsl:variable>
-          <xsl:variable name="language">
-            <xsl:choose>
-              <xsl:when test="language='0'"></xsl:when>
-              <xsl:when test="language='1'">en</xsl:when>
-              <xsl:when test="language='2'">fr</xsl:when>
-              <xsl:when test="language='3'">it</xsl:when>
-              <xsl:when test="language='4'">de</xsl:when>
-              <xsl:when test="language='5'">nl</xsl:when>
-              <xsl:when test="language='6'">sv</xsl:when>
-              <xsl:when test="language='7'">ca</xsl:when>
-            </xsl:choose>
-          </xsl:variable>
-          
-          
-          <skos:prefLabel>
-            <xsl:if test="normalize-space(language)!=''">
-              <xsl:attribute name="xml:lang"><xsl:value-of select="$language"/></xsl:attribute>
-            </xsl:if>
-            <xsl:value-of select="label"/>
-          </skos:prefLabel>
-          
-        </xsl:for-each>
+        <!-- /Prefered Label in the main language -->
+      
       </xsl:if>
   </xsl:template>
+  <!-- / Concept Scheme -->
   
+  <!-- list of the top concepts in the thesaurus : whose parent is LEXICON_00000000 -->
   <xsl:template match="term" mode="ConceptSchemeHornbostelSachsTopConcept">
     <xsl:if test="(relation[type='BT']) and(relation[eid='LEXICON_00000000'])">
-      <skos:hasTopConcept rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}"></skos:hasTopConcept> 
+      <skos:hasTopConcept rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}" /> 
     </xsl:if>
   </xsl:template>
+  <!-- list of the top concepts -->
   
+  
+  <!-- Concepts -->
   <xsl:template match="term" mode="Concepts">
-    <xsl:if test="eid/@id != 'LEXICON_2204'">
+    
+    <!-- leave out LEXICON_00000000 which is not a concept -->
+    <xsl:if test="eid != 'LEXICON_00000000'">
       <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
         
-        <!-- libellé forme 0-->
+        <!-- relation to the concept scheme --> 
+        <xsl:choose>
+          <xsl:when test="(relation[type='BT']) and(relation[eid='LEXICON_00000000'])">
+            <skos:topConceptOf rdf:resource="{$InstrumentsBaseUrl}" /> 
+          </xsl:when>
+          <xsl:otherwise>
+            <skos:inScheme rdf:resource="{$InstrumentsBaseUrl}"/>
+          </xsl:otherwise>
+        </xsl:choose>
+        <!-- /relation to the concept scheme --> 
+        
+        
+        <!-- Prefered Label in the main language -->
         <xsl:if test="string(label)!=''">
           <skos:prefLabel>
             <xsl:if test="normalize-space(language)!=''">
-              <xsl:variable name="language">
-                <xsl:choose>
-                  <xsl:when test="language='0'"></xsl:when>
-                  <xsl:when test="language='1'">en</xsl:when>
-                  <xsl:when test="language='2'">fr</xsl:when>
-                  <xsl:when test="language='3'">it</xsl:when>
-                  <xsl:when test="language='4'">de</xsl:when>
-                  <xsl:when test="language='5'">nl</xsl:when>
-                  <xsl:when test="language='6'">sv</xsl:when>
-                  <xsl:when test="language='7'">ca</xsl:when>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:attribute name="xml:lang"><xsl:value-of select="$language"/></xsl:attribute>
+              <xsl:variable name="language" select="language" />
+              <xsl:attribute name="xml:lang" select="$Languages/i[@key=$language]" />
             </xsl:if>
             <xsl:value-of select="label"/>
           </skos:prefLabel>
         </xsl:if>
+        <!-- /Prefered Label in the main language -->
         
-        <!-- Créateur -->
+        <!-- createdBy -->
         <xsl:if test="string(createdBy)!=''">
-          <dc:creator>
-            <xsl:value-of select="createdBy"/>
-          </dc:creator>
+          <dc:creator select="createdBy"/>
         </xsl:if>
-        <!-- Date de création -->
-        <xsl:if test="string(createdDate)!=''">
-          <dc:created>
-            <xsl:value-of select="createdDate"/>
-          </dc:created>
-        </xsl:if>
+        <!-- /createdBy -->
         
+        <!-- createdDate -->
+        <xsl:if test="string(createdDate)!=''">
+          <dc:created  select="createdDate"/>
+        </xsl:if>
+        <!-- /createdDate -->
         
         <!-- definition -->
         <xsl:if test="string(definition)!=''">
-          <skos:definition>
-            <xsl:value-of select="definition"/>
-          </skos:definition>
+          <skos:definition select="definition"/>
         </xsl:if>
-        
-        <!--
-  			<language>DEFAULT_FORM</language>
-  			<definition>def</definition>
-  			<createdDate>28/01/2008 11:02:15</createdDate>
-  			<createdBy></createdBy>
-  			<reference>ref</reference>
-  			<source>source</source>
-  			<status>0</status>
-  			-->
-        
-        <!-- traductions -->
-        <xsl:for-each select="relation[type='LE']">
-          <xsl:variable name="termEid"><xsl:value-of select="eid"/></xsl:variable>
-          <xsl:variable name="language">
-            <xsl:choose>
-              <xsl:when test="language='0'"></xsl:when>
-              <xsl:when test="language='1'">en</xsl:when>
-              <xsl:when test="language='2'">fr</xsl:when>
-              <xsl:when test="language='3'">it</xsl:when>
-              <xsl:when test="language='4'">de</xsl:when>
-              <xsl:when test="language='5'">nl</xsl:when>
-              <xsl:when test="language='6'">sv</xsl:when>
-              <xsl:when test="language='7'">ca</xsl:when>
-            </xsl:choose>
-          </xsl:variable>
-          
-          
-          <skos:prefLabel>
-            <xsl:if test="normalize-space(language)!=''">
-              <xsl:attribute name="xml:lang"><xsl:value-of select="$language"/></xsl:attribute>
-            </xsl:if>
-            <xsl:value-of select="label"/>
-          </skos:prefLabel>
-          
-        </xsl:for-each>
-        
-        <!-- synonyme : forme 0-->
-        <xsl:for-each select="relation[type='UF']">
-          <xsl:variable name="language">
-            <xsl:choose>
-              <xsl:when test="language='0'"></xsl:when>
-              <xsl:when test="language='1'">en</xsl:when>
-              <xsl:when test="language='2'">fr</xsl:when>
-              <xsl:when test="language='3'">it</xsl:when>
-              <xsl:when test="language='4'">de</xsl:when>
-              <xsl:when test="language='5'">nl</xsl:when>
-              <xsl:when test="language='6'">sv</xsl:when>
-              <xsl:when test="language='7'">ca</xsl:when>
-            </xsl:choose>
-          </xsl:variable>
-          <skos:altLabel>
-            <xsl:if test="normalize-space(language)!=''">
-              <xsl:attribute name="xml:lang"><xsl:value-of select="$language"/></xsl:attribute>
-            </xsl:if>
-            <xsl:value-of select="label"/>
-          </skos:altLabel>
-        </xsl:for-each>
-        
-        
-        
-        <!--génériques-->
+        <!-- /definition -->
+
+        <!-- parent Concepts -->
         <xsl:for-each select="relation[type='BT']">
-          <skos:broader rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}"></skos:broader>
+          <xsl:if test="eid !='LEXICON_00000000'">
+            <skos:broader rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}" />
+          </xsl:if>
         </xsl:for-each>
-        <!--spécifiques-->
+        <!-- /parent Concepts -->
+        
+        <!-- children Concepts -->
         <xsl:for-each select="relation[type='NT']">
-          
-          <skos:narrower rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}"></skos:narrower>
+          <skos:narrower rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}" />
         </xsl:for-each>
-        <!--relatifs-->
+        <!-- /children Concepts -->
+        
+        <!-- equivalents MIMO -->
         <xsl:for-each select="relation[type='RT']">
-          <skos:exactMatch rdf:resource="{$RelatedBaseUrl}/{eid/@id}"></skos:exactMatch>
+          <skos:exactMatch rdf:resource="{$RelatedBaseUrl}/{eid/@id}" />
         </xsl:for-each>
+        <!-- /equivalents MIMO -->
         
+        <!-- applicationNote -->
         <xsl:if test="applicationNote">
-          <skos:note>
-            <xsl:value-of select="applicationNote"/>
-          </skos:note>
+          <skos:note select="applicationNote"/>
         </xsl:if>
-        <xsl:if test="explainNote">
-          <skos:definition>
-            <xsl:value-of select="explainNote"/>
-          </skos:definition>
-        </xsl:if>
+        <!-- /applicationNote -->
         
-        <skos:inScheme rdf:resource="{$InstrumentsBaseUrl}"/>
+        <!-- explainNote -->
+        <xsl:if test="explainNote">
+          <skos:definition select="explainNote" />
+        </xsl:if>
+        <!-- /explainNote -->
+        
         
       </skos:Concept>
     </xsl:if>
   </xsl:template>
+  <!-- / Concepts -->
 
 </xsl:stylesheet>
