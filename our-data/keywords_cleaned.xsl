@@ -93,7 +93,7 @@
   <!-- list of the top concepts in the thesaurus : whose parent is LEXICON_00002204 -->
   <xsl:template match="term" mode="ConceptSchemeMusicalInstrumentTopConcept">
     <xsl:if test="(relation[type='BT']) and(relation[eid='LEXICON_00002204'])">
-      <skos:hasTopConcept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}"><xsl:value-of select="label"/></skos:hasTopConcept> 
+      <skos:hasTopConcept rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}"></skos:hasTopConcept> 
     </xsl:if>
   </xsl:template>
   
@@ -238,25 +238,17 @@
         
         <!-- parent Concept -->
         <xsl:for-each select="relation[type='BT']">
-          <skos:broader>
-            <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
-            </skos:Concept>
-          </skos:broader>
+          <skos:broader  rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}"></skos:broader>
         </xsl:for-each>
         
         <!-- children Concepts -->
         <xsl:for-each select="relation[type='NT']">
-          <skos:narrower>
-            <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
-            </skos:Concept>
-          </skos:narrower>
+          <skos:narrower rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}"></skos:narrower>
         </xsl:for-each>
         
         <!-- equivalent HornBostel and Sachs -->
         <xsl:for-each select="relation[type='RT']">
-          <skos:exactMatch>
-            <skos:Concept rdf:about="{$RelatedBaseUrl}/{eid/@id}"></skos:Concept>
-          </skos:exactMatch>
+          <skos:exactMatch rdf:resource="{$RelatedBaseUrl}/{eid/@id}"></skos:exactMatch>
         </xsl:for-each>
         
         <xsl:if test="applicationNote">

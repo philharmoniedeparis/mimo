@@ -14,6 +14,26 @@
   <xsl:variable name="RelatedBaseUrl" select="'http://www.mimo-db.eu/InstrumentsKeywords'"></xsl:variable>
   
   
+  <xsl:template match="hs">
+    <rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+      xmlns:owl="http://www.w3.org/2002/07/owl#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"	>
+      
+      <skos:ConceptScheme rdf:about="{$InstrumentsBaseUrl}">
+        <xsl:apply-templates select="term" mode="ConceptSchemeHornbostelSachs" />
+        <xsl:apply-templates select="term" mode="ConceptSchemeHornbostelSachsTopConcept" />
+      </skos:ConceptScheme>
+      
+      <xsl:apply-templates select="term" mode="Concepts" />
+      
+    </rdf:RDF>
+    
+  </xsl:template>
+  
+  
   <xsl:template match="term" mode="ConceptSchemeHornbostelSachs">
     <xsl:if test="(eid='LEXICON_00000000')">
 
@@ -69,7 +89,7 @@
   
   <xsl:template match="term" mode="ConceptSchemeHornbostelSachsTopConcept">
     <xsl:if test="(relation[type='BT']) and(relation[eid='LEXICON_00000000'])">
-      <skos:hasTopConcept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}"><xsl:value-of select="label"/></skos:hasTopConcept> 
+      <skos:hasTopConcept rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}"></skos:hasTopConcept> 
     </xsl:if>
   </xsl:template>
   
@@ -182,25 +202,16 @@
         
         <!--génériques-->
         <xsl:for-each select="relation[type='BT']">
-          
-          <skos:broader>
-            <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
-            </skos:Concept>
-          </skos:broader>
+          <skos:broader rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}"></skos:broader>
         </xsl:for-each>
         <!--spécifiques-->
         <xsl:for-each select="relation[type='NT']">
           
-          <skos:narrower>
-            <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
-            </skos:Concept>
-          </skos:narrower>
+          <skos:narrower rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}"></skos:narrower>
         </xsl:for-each>
         <!--relatifs-->
         <xsl:for-each select="relation[type='RT']">
-          <skos:exactMatch>
-            <skos:Concept rdf:about="{$RelatedBaseUrl}/{eid/@id}"></skos:Concept>
-          </skos:exactMatch>
+          <skos:exactMatch rdf:resource="{$RelatedBaseUrl}/{eid/@id}"></skos:exactMatch>
         </xsl:for-each>
         
         <xsl:if test="applicationNote">
@@ -219,23 +230,5 @@
       </skos:Concept>
     </xsl:if>
   </xsl:template>
-  
-  <xsl:template match="hs">
-    <rdf:RDF
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-      xmlns:owl="http://www.w3.org/2002/07/owl#"
-      xmlns:dc="http://purl.org/dc/elements/1.1/"	>
-      
-      <skos:ConceptScheme rdf:about="{$InstrumentsBaseUrl}">
-        <xsl:apply-templates select="term" mode="ConceptSchemeHornbostelSachs" />
-        <xsl:apply-templates select="term" mode="ConceptSchemeHornbostelSachsTopConcept" />
-      </skos:ConceptScheme>
-      
-      <xsl:apply-templates select="term" mode="Concepts" />
-      
-    </rdf:RDF>
-    
-  </xsl:template>
+
 </xsl:stylesheet>
