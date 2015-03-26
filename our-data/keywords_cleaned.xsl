@@ -90,8 +90,9 @@
   <xsl:template match="term" mode="Concepts">
     
     <!-- leave out nodes which have no id attribute (ie translations, which have a referent attribute instead) -->
+    <!-- and nodes which have no parent and no children (they are only synonyms) -->
     <!-- as well as Musical Instruments (LEXICON_2204), which is not a concept -->
-    <xsl:if test="(eid/@id) and (eid/@id != 'LEXICON_2204')">
+    <xsl:if test="(eid/@id) and ( (relation[type='BT']) or (relation[type='NT']) ) and (eid/@id != 'LEXICON_2204')">
       
       <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
         
@@ -120,6 +121,20 @@
           </skos:prefLabel>
         </xsl:if>
         <!-- /Prefered Label in the main language -->
+        
+        
+        <!-- Dbpedia Links -->
+        <xsl:if test="dbpedia">
+          <xsl:choose>
+            <xsl:when test="@exact='true'">
+              <skos:exactMatch  rdf:resource="{dbpedia}" />
+            </xsl:when>
+            <xsl:otherwise>
+              <skos:closeMatch  rdf:resource="{dbpedia}" />
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:if>
+        <!-- /Dbpedia Links -->
         
         <!-- createdBy -->
         <xsl:if test="string(createdBy)!=''">

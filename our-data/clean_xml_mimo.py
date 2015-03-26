@@ -49,14 +49,17 @@ cr = csv.reader(open("MIMOwikipedia.csv","rU"),  delimiter=';')
 pattern = re.compile('en.wikipedia.org/wiki/')
 xmlContent = pattern.sub('dbpedia.org/resource', xmlContent)
 
-dbpedia = {};
+exactDbpedia = {};
+closeDbpedia = {};
 
 for row in cr:
-	if row[7] :
-		dbpedia[row[0]] = row[7]
+	if row[7] and row[8] :
+		closeDbpedia[row[0]] = row[7]
+	elif row[7] :
+		exactDbpedia[row[0]] = row[7]
 
 
-# find the dbpedia link
+# find the id
 def stripZeros(eidPart):
 	numericValue = int(eidPart.group(2))
 	if eidPart.group(3) :
@@ -74,8 +77,10 @@ def addIdToEid(eidNode):
 
 	newnode = "<eid" + id + ">" + eid + "</eid>"
 
-	if eid in dbpedia :
-		newnode += "<dbpedia>" + dbpedia[eid] + "</dbpedia>"
+	if eid in closeDbpedia :
+		newnode += "<dbpedia>" + closeDbpedia[eid] + "</dbpedia>"
+	elif eid in exactDbpedia :
+		newnode += "<dbpedia exact='true'>" + exactDbpedia[eid] + "</dbpedia>"
 
 	# add it as an attribute of the eid node
 
