@@ -53,7 +53,7 @@
           <xsl:if test="(normalize-space(language)!='') and (language!='0')">
             <xsl:attribute name="xml:lang" select="$Languages/i[@key=$language]"/>
           </xsl:if>
-          <xsl:value-of select="label"/>
+          <xsl:value-of select="normalize-space(label)"/>
         </skos:prefLabel>
       </xsl:if>
       <!-- /Prefered Label in the main language -->
@@ -66,7 +66,7 @@
           <xsl:if test="(normalize-space(language)!='') and (language!='0')">
             <xsl:attribute name="xml:lang" select="$Languages/i[@key=$language]" />
           </xsl:if>      
-          <xsl:value-of select="label"/>
+          <xsl:value-of select="normalize-space(label)"/>
         </skos:prefLabel>  
       </xsl:for-each>
       <!-- /translation -->
@@ -115,7 +115,7 @@
               <xsl:variable name="language" select="language" />
               <xsl:attribute name="xml:lang" select="$Languages/i[@key=$language]" />
             </xsl:if>
-            <xsl:value-of select="label"/>
+            <xsl:value-of select="normalize-space(label)"/>
           </skos:prefLabel>
         </xsl:if>
         <!-- /Prefered Label in the main language -->
@@ -125,10 +125,10 @@
         <xsl:if test="dbpedia">
           <xsl:choose>
             <xsl:when test="@exact='true'">
-              <skos:exactMatch  rdf:resource="{dbpedia}" />
+              <skos:exactMatch  rdf:resource="{normalize-space(dbpedia)}" />
             </xsl:when>
             <xsl:otherwise>
-              <skos:closeMatch  rdf:resource="{dbpedia}" />
+              <skos:closeMatch  rdf:resource="{normalize-space(dbpedia)}" />
             </xsl:otherwise>
           </xsl:choose>
         </xsl:if>
@@ -172,7 +172,7 @@
             <xsl:if test="(normalize-space(language)!='') and (language!='0')">
               <xsl:attribute name="xml:lang" select="$Languages/i[@key=$language]" />
             </xsl:if>
-            <xsl:value-of select="label"/>
+            <xsl:value-of select="normalize-space(label)"/>
           </skos:altLabel>
         </xsl:for-each>
         <!-- /alternative Label -->
@@ -190,7 +190,7 @@
               <xsl:if test="(normalize-space(language)!='') and (language!='0')">
                 <xsl:attribute name="xml:lang" select="$Languages/i[@key=$language]" />
               </xsl:if>
-              <xsl:value-of select="label"/>
+              <xsl:value-of select="normalize-space(label)"/>
             </skos:altLabel>
           </xsl:for-each>
         </xsl:for-each>

@@ -10,7 +10,7 @@
       <skos:prefLabel xml:lang="ca">Instruments musicals</skos:prefLabel>
       <skos:prefLabel xml:lang="en">Musical instruments</skos:prefLabel>
       <skos:prefLabel xml:lang="sv">Musikinstrument</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Musikinstrumente </skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Musikinstrumente</skos:prefLabel>
       <skos:prefLabel xml:lang="nl">Muziekinstrumenten</skos:prefLabel>
       <skos:prefLabel xml:lang="it">Strumenti musicali</skos:prefLabel>
       <skos:hasTopConcept rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2208"/>
@@ -16180,7 +16180,7 @@
       <skos:altLabel xml:lang="fr">Kartal (hochet)</skos:altLabel>
       <skos:altLabel xml:lang="it">Kartal (sonaglio)</skos:altLabel>
       <skos:altLabel xml:lang="de">Kartal (Rassel)</skos:altLabel>
-      <skos:altLabel xml:lang="nl">Kartal </skos:altLabel>
+      <skos:altLabel xml:lang="nl">Kartal</skos:altLabel>
       <skos:broader rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3012"/>
    </skos:Concept>
    <skos:Concept rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2826">
@@ -16224,7 +16224,7 @@
    </skos:Concept>
    <skos:Concept rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/6786">
       <skos:inScheme rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords"/>
-      <skos:prefLabel>Kasik </skos:prefLabel>
+      <skos:prefLabel>Kasik</skos:prefLabel>
       <skos:prefLabel xml:lang="en">Kasik</skos:prefLabel>
       <skos:prefLabel xml:lang="fr">Kasik</skos:prefLabel>
       <skos:prefLabel xml:lang="it">Kasik</skos:prefLabel>
@@ -16840,7 +16840,7 @@
    </skos:Concept>
    <skos:Concept rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2230">
       <skos:topConceptOf rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords"/>
-      <skos:prefLabel>Keyboard  instruments</skos:prefLabel>
+      <skos:prefLabel>Keyboard instruments</skos:prefLabel>
       <skos:closeMatch rdf:resource="http://en.wikipedia.org/wiki/Keyboard_instruments"/>
       <skos:prefLabel xml:lang="fr">Instruments à clavier</skos:prefLabel>
       <skos:prefLabel xml:lang="ca">Instruments de teclat</skos:prefLabel>
@@ -18387,7 +18387,7 @@
       <skos:prefLabel xml:lang="sv">Lamellofon</skos:prefLabel>
       <skos:prefLabel xml:lang="it">Lamellofono</skos:prefLabel>
       <skos:prefLabel xml:lang="de">Lamellophon</skos:prefLabel>
-      <skos:altLabel>Lamellophone </skos:altLabel>
+      <skos:altLabel>Lamellophone</skos:altLabel>
       <skos:altLabel xml:lang="fr">Lamellophone</skos:altLabel>
       <skos:altLabel xml:lang="fr">Languettophone</skos:altLabel>
       <skos:broader rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2912"/>
@@ -20279,7 +20279,7 @@
       <skos:prefLabel xml:lang="it">Organo automatico</skos:prefLabel>
       <skos:prefLabel xml:lang="ca">Orgue mecànic</skos:prefLabel>
       <skos:prefLabel xml:lang="fr">Orgue mécanique</skos:prefLabel>
-      <skos:altLabel xml:lang="fr"> Orgue à rouleaux</skos:altLabel>
+      <skos:altLabel xml:lang="fr">Orgue à rouleaux</skos:altLabel>
       <skos:altLabel xml:lang="fr">Orgue à cylindres</skos:altLabel>
       <skos:broader rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/4476"/>
    </skos:Concept>
@@ -20513,7 +20513,7 @@
    </skos:Concept>
    <skos:Concept rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2965">
       <skos:inScheme rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords"/>
-      <skos:prefLabel>Metallophones </skos:prefLabel>
+      <skos:prefLabel>Metallophones</skos:prefLabel>
       <skos:closeMatch rdf:resource="http://en.wikipedia.org/wiki/Metallophones"/>
       <skos:prefLabel xml:lang="ca">Metal·lòfons</skos:prefLabel>
       <skos:prefLabel xml:lang="nl">Metallofonen</skos:prefLabel>
@@ -20889,7 +20889,7 @@
       <skos:prefLabel xml:lang="nl">Mokugyo</skos:prefLabel>
       <skos:prefLabel xml:lang="sv">Mokugyo</skos:prefLabel>
       <skos:prefLabel xml:lang="ca">Mokugyo</skos:prefLabel>
-      <skos:altLabel>Moktak </skos:altLabel>
+      <skos:altLabel>Moktak</skos:altLabel>
       <skos:broader rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2493"/>
    </skos:Concept>
    <skos:Concept rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2675">
@@ -30460,7 +30460,7 @@
       <skos:altLabel>Tambur</skos:altLabel>
       <skos:altLabel>Tanbour</skos:altLabel>
       <skos:altLabel>Tanbur baghlamah</skos:altLabel>
-      <skos:altLabel>Tanbur buzurk </skos:altLabel>
+      <skos:altLabel>Tanbur buzurk</skos:altLabel>
       <skos:altLabel>Tanbur kebyr turki</skos:altLabel>
       <skos:broader rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/3313"/>
       <skos:exactMatch rdf:resource="http://www.mimo-db.eu/HornbostelAndSachs/205"/>
