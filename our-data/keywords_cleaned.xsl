@@ -42,8 +42,6 @@
     
   </xsl:template>
   
-  
-  
   <!-- Concept Scheme : term with id LEXICON_00002204, "Musical Instruments" -->
   <xsl:template match="term" mode="ConceptSchemeMusicalInstrumentName">
     <xsl:if test="(eid/@id) and (eid/@id = '2204')">
@@ -162,7 +160,7 @@
             <xsl:if test="(normalize-space(language)!='') and (language!='0')">
               <xsl:attribute name="xml:lang" select="$Languages/i[@key=$language]" />
             </xsl:if>
-            <xsl:value-of select="label"/>
+            <xsl:value-of select="normalize-space(label)"/>
           </skos:prefLabel>
         </xsl:for-each>
         <!-- translation -->
