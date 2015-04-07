@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<purls>
+        <purl id="/hs/112" type="302">
+                <maintainers>
+                        <uid>uche</uid>
+                </maintainers>
+                <target url="http://example.com/test302target/"/>
+        </purl>
+</purls>
+

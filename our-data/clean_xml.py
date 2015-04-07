@@ -47,7 +47,7 @@ class Cleaner:
 		# open cvs file with wikipedia links
 		# in the fututre these links will be stored in the database and be part of the export
 		
-		cr = csv.reader(open("MIMOwikipedia.csv","rU"),  delimiter=b';')
+		cr = csv.reader(open("02_cleaned/MIMOwikipedia.csv","rU"),  delimiter=b';')
 
 		# transform all wikipedia in dbpedia links
 		pattern = re.compile('en.wikipedia.org/wiki/')
@@ -102,7 +102,7 @@ class Cleaner:
 		# return it as an id if it's a concept, as a referent if it's an alternative label
 		label = labelGroup.group(0)
 	  	label = unicodedata.normalize('NFKD', label).encode('ASCII', 'ignore').decode('ASCII')
-	  	label = re.sub(r'[\s,!°‘‛’:\']', "-", label)
+	  	label = re.sub(r"[\s,!°‘‛’:']", "-", label)
 	  	label = re.sub(r'[\)/“”‟"˝″]', "", label)
 	  	label = re.sub(r'(-){2,}', "-", label)
 		return label
@@ -113,14 +113,14 @@ class Cleaner:
 		label = labelNode.group(2).strip()
 		
 		# find the friendly name 
-		id = re.sub(r'([\w.,\s]*)', self.friendlyName, label)
+		id = re.sub(r'([\w.,\s\']*)', self.friendlyName, label)
 		replacement = "<label friendly='" + id + "'>" + label + "</label>"
 		#print replacement.encode('utf8')
 		# add it as an attribute of the label node
 		return replacement
 
 	def addFriendlyNameToLabel(self):
-		pattern = re.compile('(<label>)([a-zA-Z0-9.()/,:‘‛“”‟"˝″°!’\'\-\s]*)(</label>)')
+		pattern = re.compile(r'(<label>)([a-zA-Z0-9.()/,:‘‛“”‟"˝″°!’\'\-\s]*)(</label>)')
 		self.xmlContent = pattern.sub(self.getFriendlyNameWithLabel, self.xmlContent)
 
 
