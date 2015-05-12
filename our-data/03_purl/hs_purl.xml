@@ -1,0 +1,3885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<purls>
+   <purl id="hs/1/1-Idiophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/1/1-Idiophones/"/>
+   </purl>
+   <purl id="hs/2/11-Struck-idiophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2/11-Struck-idiophones/"/>
+   </purl>
+   <purl id="hs/3/111-Idiophones-struck-directly/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/3/111-Idiophones-struck-directly/"/>
+   </purl>
+   <purl id="hs/4/111.1-Concussion-idiophones-or-clappers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/4/111.1-Concussion-idiophones-or-clappers/"/>
+   </purl>
+   <purl id="hs/5/111.11-Concussion-sticks-or-stick-clappers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5/111.11-Concussion-sticks-or-stick-clappers/"/>
+   </purl>
+   <purl id="hs/6/111.12-Concussion-plaques-or-plaque-clappers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6/111.12-Concussion-plaques-or-plaque-clappers/"/>
+   </purl>
+   <purl id="hs/7/111.13-Concussion-troughs-or-trough-clappers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/7/111.13-Concussion-troughs-or-trough-clappers/"/>
+   </purl>
+   <purl id="hs/8/111.14-Concussion-vessels-or-vessel-clappers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/8/111.14-Concussion-vessels-or-vessel-clappers/"/>
+   </purl>
+   <purl id="hs/9/111.141-Castanets/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/9/111.141-Castanets/"/>
+   </purl>
+   <purl id="hs/10/111.142-Cymbals/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/10/111.142-Cymbals/"/>
+   </purl>
+   <purl id="hs/11/111.143-Concussion-bells/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/11/111.143-Concussion-bells/"/>
+   </purl>
+   <purl id="hs/12/111.2-Percussion-idiophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/12/111.2-Percussion-idiophones/"/>
+   </purl>
+   <purl id="hs/13/111.21-Percussion-sticks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/13/111.21-Percussion-sticks/"/>
+   </purl>
+   <purl id="hs/14/111.211-(Individual)-percussion-sticks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/14/111.211-(Individual)-percussion-sticks/"/>
+   </purl>
+   <purl id="hs/15/111.212-Sets-of-percussion-sticks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/15/111.212-Sets-of-percussion-sticks/"/>
+   </purl>
+   <purl id="hs/6419/111.212-8-Sets-of-percussion-sticks-with-keyboard/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6419/111.212-8-Sets-of-percussion-sticks-with-keyboard/"/>
+   </purl>
+   <purl id="hs/16/111.22-Percussion-plaques/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/16/111.22-Percussion-plaques/"/>
+   </purl>
+   <purl id="hs/17/111.221-(Individual)-percussion-plaques/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/17/111.221-(Individual)-percussion-plaques/"/>
+   </purl>
+   <purl id="hs/18/111.222-Sets-of-percussion-plaques/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/18/111.222-Sets-of-percussion-plaques/"/>
+   </purl>
+   <purl id="hs/19/111.23-Percussion-tubes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/19/111.23-Percussion-tubes/"/>
+   </purl>
+   <purl id="hs/20/111.231-(Individual)-percussion-tubes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/20/111.231-(Individual)-percussion-tubes/"/>
+   </purl>
+   <purl id="hs/21/111.232-Sets-of-percussion-tubes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/21/111.232-Sets-of-percussion-tubes/"/>
+   </purl>
+   <purl id="hs/22/111.24-Percussion-vessels/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/22/111.24-Percussion-vessels/"/>
+   </purl>
+   <purl id="hs/23/111.241-Gongs/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/23/111.241-Gongs/"/>
+   </purl>
+   <purl id="hs/24/111.241.1-(Individual)-gongs/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/24/111.241.1-(Individual)-gongs/"/>
+   </purl>
+   <purl id="hs/6201/111.241.11-Bossed-and-flat-gongs/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6201/111.241.11-Bossed-and-flat-gongs/"/>
+   </purl>
+   <purl id="hs/25/111.241.12-Gongs-with-divided-surface/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/25/111.241.12-Gongs-with-divided-surface/"/>
+   </purl>
+   <purl id="hs/26/111.241.2-Sets-of-gongs/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/26/111.241.2-Sets-of-gongs/"/>
+   </purl>
+   <purl id="hs/6202/111.241.21-Sets-of-bossed-and-flat-gongs/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6202/111.241.21-Sets-of-bossed-and-flat-gongs/"/>
+   </purl>
+   <purl id="hs/5532/111.241.22-Sets-of-gongs-with-divided-surface/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5532/111.241.22-Sets-of-gongs-with-divided-surface/"/>
+   </purl>
+   <purl id="hs/27/111.242-Bells/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/27/111.242-Bells/"/>
+   </purl>
+   <purl id="hs/28/111.242.1-(Individual)-bells/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/28/111.242.1-(Individual)-bells/"/>
+   </purl>
+   <purl id="hs/29/111.242.11-(Individual)-resting-bells/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/29/111.242.11-(Individual)-resting-bells/"/>
+   </purl>
+   <purl id="hs/30/111.242.12-(Individual)-suspended-bells/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/30/111.242.12-(Individual)-suspended-bells/"/>
+   </purl>
+   <purl id="hs/31/111.242.121-(Individual)-suspended-bells-struck-from-the-outside/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/31/111.242.121-(Individual)-suspended-bells-struck-from-the-outside/"/>
+   </purl>
+   <purl id="hs/32/111.242.122-(Individual)-clapper-bells/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/32/111.242.122-(Individual)-clapper-bells/"/>
+   </purl>
+   <purl id="hs/33/111.242.123-(Individual)-bells-with-attached-external-clapper/s/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/33/111.242.123-(Individual)-bells-with-attached-external-clapper/s/"/>
+   </purl>
+   <purl id="hs/34/111.242.2-Sets-of-bells/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/34/111.242.2-Sets-of-bells/"/>
+   </purl>
+   <purl id="hs/5533/111.242.21-(Sets-of)-resting-bells/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5533/111.242.21-(Sets-of)-resting-bells/"/>
+   </purl>
+   <purl id="hs/5534/111.242.22-(Sets-of)-suspended-bells/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5534/111.242.22-(Sets-of)-suspended-bells/"/>
+   </purl>
+   <purl id="hs/5535/111.242.221-(Sets-of)-suspended-bells-struck-from-the-outside/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5535/111.242.221-(Sets-of)-suspended-bells-struck-from-the-outside/"/>
+   </purl>
+   <purl id="hs/5536/111.242.222-(Sets-of)-clapper-bells/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5536/111.242.222-(Sets-of)-clapper-bells/"/>
+   </purl>
+   <purl id="hs/5537/111.242.223-(Sets-of)-bells-with-attached-external-clappers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5537/111.242.223-(Sets-of)-bells-with-attached-external-clappers/"/>
+   </purl>
+   <purl id="hs/35/111.243-Slit-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/35/111.243-Slit-drums/"/>
+   </purl>
+   <purl id="hs/36/111.244-Percussion-troughs/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/36/111.244-Percussion-troughs/"/>
+   </purl>
+   <purl id="hs/37/111.25-Percussion-boulders/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/37/111.25-Percussion-boulders/"/>
+   </purl>
+   <purl id="hs/38/112-Indirectly-struck-idiophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/38/112-Indirectly-struck-idiophones/"/>
+   </purl>
+   <purl id="hs/39/112.1-Shaken-idiophones-or-rattles/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/39/112.1-Shaken-idiophones-or-rattles/"/>
+   </purl>
+   <purl id="hs/40/112.11-Suspension-rattles/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/40/112.11-Suspension-rattles/"/>
+   </purl>
+   <purl id="hs/41/112.111-Strung-rattles/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/41/112.111-Strung-rattles/"/>
+   </purl>
+   <purl id="hs/42/112.112-Stick-rattles/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/42/112.112-Stick-rattles/"/>
+   </purl>
+   <purl id="hs/43/112.12-Frame-rattles/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/43/112.12-Frame-rattles/"/>
+   </purl>
+   <purl id="hs/44/112.121-Pendant-rattles/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/44/112.121-Pendant-rattles/"/>
+   </purl>
+   <purl id="hs/45/112.122-Sliding-rattles/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/45/112.122-Sliding-rattles/"/>
+   </purl>
+   <purl id="hs/46/112.13-Vessel-rattles/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/46/112.13-Vessel-rattles/"/>
+   </purl>
+   <purl id="hs/48/112.2-Scraped-idiophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/48/112.2-Scraped-idiophones/"/>
+   </purl>
+   <purl id="hs/49/112.21-Scraped-sticks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/49/112.21-Scraped-sticks/"/>
+   </purl>
+   <purl id="hs/50/112.211-Scraped-sticks-without-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/50/112.211-Scraped-sticks-without-resonator/"/>
+   </purl>
+   <purl id="hs/51/112.212-Scraped-sticks-with-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/51/112.212-Scraped-sticks-with-resonator/"/>
+   </purl>
+   <purl id="hs/52/112.22-Scraped-tubes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/52/112.22-Scraped-tubes/"/>
+   </purl>
+   <purl id="hs/53/112.23-Scraped-vessels/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/53/112.23-Scraped-vessels/"/>
+   </purl>
+   <purl id="hs/54/112.24-Scraped-wheels-or-cog-rattles/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/54/112.24-Scraped-wheels-or-cog-rattles/"/>
+   </purl>
+   <purl id="hs/55/112.25-Scraped-boards/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/55/112.25-Scraped-boards/"/>
+   </purl>
+   <purl id="hs/56/112.3-Split-idiophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/56/112.3-Split-idiophones/"/>
+   </purl>
+   <purl id="hs/6409/11-9-Mechanically-driven-struck-idiophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6409/11-9-Mechanically-driven-struck-idiophones/"/>
+   </purl>
+   <purl id="hs/57/12-Lamellaphones-(or-plucked-idiophones)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/57/12-Lamellaphones-(or-plucked-idiophones)/"/>
+   </purl>
+   <purl id="hs/58/121-Lamellaphones-(or-plucked-idiophones)-in-the-form-of-a-frame/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/58/121-Lamellaphones-(or-plucked-idiophones)-in-the-form-of-a-frame/"/>
+   </purl>
+   <purl id="hs/59/121.1-Clack-idiophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/59/121.1-Clack-idiophones/"/>
+   </purl>
+   <purl id="hs/60/121.2-Guimbardes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/60/121.2-Guimbardes/"/>
+   </purl>
+   <purl id="hs/61/121.21-Idioglot-guimbardes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/61/121.21-Idioglot-guimbardes/"/>
+   </purl>
+   <purl id="hs/62/121.22-Heteroglot-guimbardes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/62/121.22-Heteroglot-guimbardes/"/>
+   </purl>
+   <purl id="hs/63/121.221-(Single)-heteroglot-guimbardes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/63/121.221-(Single)-heteroglot-guimbardes/"/>
+   </purl>
+   <purl id="hs/64/121.222-Sets-of-heteroglot-guimbardes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/64/121.222-Sets-of-heteroglot-guimbardes/"/>
+   </purl>
+   <purl id="hs/65/122-Lamellaphones-(or-plucked-idiophones)-in-board--or-comb-form/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/65/122-Lamellaphones-(or-plucked-idiophones)-in-board--or-comb-form/"/>
+   </purl>
+   <purl id="hs/66/122.1-Lamellaphones-(or-plucked-idiophones)-with-laced-on-or-hooked-in-lamellae/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/66/122.1-Lamellaphones-(or-plucked-idiophones)-with-laced-on-or-hooked-in-lamellae/"/>
+   </purl>
+   <purl id="hs/67/122.11-Lamellaphones-(or-plucked-idiophones)-with-laced-on-or-hooked-in-lamellae-without-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/67/122.11-Lamellaphones-(or-plucked-idiophones)-with-laced-on-or-hooked-in-lamellae-without-resonator/"/>
+   </purl>
+   <purl id="hs/68/122.12-Lamellaphones-(or-plucked-idiophones)-with-laced-on-or-hooked-in-lamellae-with-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/68/122.12-Lamellaphones-(or-plucked-idiophones)-with-laced-on-or-hooked-in-lamellae-with-resonator/"/>
+   </purl>
+   <purl id="hs/69/122.2-Lamellaphones-(or-plucked-idiophones)-with-cut-out-lamellae/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/69/122.2-Lamellaphones-(or-plucked-idiophones)-with-cut-out-lamellae/"/>
+   </purl>
+   <purl id="hs/6421/122.2-8-Lamellaphones-(or-plucked-idiophones)-with-cut-out-lamellae-with-keyboard/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6421/122.2-8-Lamellaphones-(or-plucked-idiophones)-with-cut-out-lamellae-with-keyboard/"/>
+   </purl>
+   <purl id="hs/6422/122.2-9-Mechanically-driven-lamellaphones-(or-plucked-idiophones)-with-cut-out-lamellae/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6422/122.2-9-Mechanically-driven-lamellaphones-(or-plucked-idiophones)-with-cut-out-lamellae/"/>
+   </purl>
+   <purl id="hs/6420/12-8-Lamellaphones-(or-plucked-idiophones)-with-keyboard/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6420/12-8-Lamellaphones-(or-plucked-idiophones)-with-keyboard/"/>
+   </purl>
+   <purl id="hs/70/13-Friction-Idiophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/70/13-Friction-Idiophones/"/>
+   </purl>
+   <purl id="hs/71/131-Friction-sticks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/71/131-Friction-sticks/"/>
+   </purl>
+   <purl id="hs/72/131.1-(Individual)-friction-sticks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/72/131.1-(Individual)-friction-sticks/"/>
+   </purl>
+   <purl id="hs/6423/131.1-9-Mechanically-driven-(individual)-friction-sticks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6423/131.1-9-Mechanically-driven-(individual)-friction-sticks/"/>
+   </purl>
+   <purl id="hs/73/131.2-Sets-of-friction-sticks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/73/131.2-Sets-of-friction-sticks/"/>
+   </purl>
+   <purl id="hs/74/131.21-Sets-of-friction-sticks-with-direct-friction/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/74/131.21-Sets-of-friction-sticks-with-direct-friction/"/>
+   </purl>
+   <purl id="hs/75/131.22-Sets-of-friction-sticks-with-indirect-friction/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/75/131.22-Sets-of-friction-sticks-with-indirect-friction/"/>
+   </purl>
+   <purl id="hs/76/132-Friction-plaques/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/76/132-Friction-plaques/"/>
+   </purl>
+   <purl id="hs/77/132.1-(Individual)-friction-plaques/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/77/132.1-(Individual)-friction-plaques/"/>
+   </purl>
+   <purl id="hs/78/132.2-Sets-of-friction-plaques/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/78/132.2-Sets-of-friction-plaques/"/>
+   </purl>
+   <purl id="hs/79/133-Friction-vessels/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/79/133-Friction-vessels/"/>
+   </purl>
+   <purl id="hs/80/133.1-(Individual)-friction-vessels/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/80/133.1-(Individual)-friction-vessels/"/>
+   </purl>
+   <purl id="hs/81/133.2-Sets-of-friction-vessels/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/81/133.2-Sets-of-friction-vessels/"/>
+   </purl>
+   <purl id="hs/6424/133.2-9-Mechanically-driven-sets-of-friction-vessels/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6424/133.2-9-Mechanically-driven-sets-of-friction-vessels/"/>
+   </purl>
+   <purl id="hs/82/134-Friction-sheet/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/82/134-Friction-sheet/"/>
+   </purl>
+   <purl id="hs/83/14-Blown-idiophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/83/14-Blown-idiophones/"/>
+   </purl>
+   <purl id="hs/84/141-Blown-sticks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/84/141-Blown-sticks/"/>
+   </purl>
+   <purl id="hs/85/141.1-(Individual)-blown-sticks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/85/141.1-(Individual)-blown-sticks/"/>
+   </purl>
+   <purl id="hs/86/141.2-Sets-of-blown-sticks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/86/141.2-Sets-of-blown-sticks/"/>
+   </purl>
+   <purl id="hs/87/142-Blown-plaques/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/87/142-Blown-plaques/"/>
+   </purl>
+   <purl id="hs/88/142.1-(Individual)-blown-plaques/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/88/142.1-(Individual)-blown-plaques/"/>
+   </purl>
+   <purl id="hs/89/142.2-Sets-of-blown-plaques/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/89/142.2-Sets-of-blown-plaques/"/>
+   </purl>
+   <purl id="hs/6204/15-Metal-sheets/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6204/15-Metal-sheets/"/>
+   </purl>
+   <purl id="hs/6205/151-Friction-metal-sheet/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6205/151-Friction-metal-sheet/"/>
+   </purl>
+   <purl id="hs/6206/152-Directly-struck-metal-sheet/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6206/152-Directly-struck-metal-sheet/"/>
+   </purl>
+   <purl id="hs/6207/153-Metal-sheet-played-by-shaking/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6207/153-Metal-sheet-played-by-shaking/"/>
+   </purl>
+   <purl id="hs/6208/154-Metal-sheet-shaken-and-indirectly-struck/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6208/154-Metal-sheet-shaken-and-indirectly-struck/"/>
+   </purl>
+   <purl id="hs/6209/16-Flexed-diapragms/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6209/16-Flexed-diapragms/"/>
+   </purl>
+   <purl id="hs/94/2-Membranophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/94/2-Membranophones/"/>
+   </purl>
+   <purl id="hs/95/21-Struck-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/95/21-Struck-drums/"/>
+   </purl>
+   <purl id="hs/96/211-Drums-struck-directly/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/96/211-Drums-struck-directly/"/>
+   </purl>
+   <purl id="hs/97/211.1-Vessel-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/97/211.1-Vessel-drums/"/>
+   </purl>
+   <purl id="hs/98/211.11-(Separate)-vessel-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/98/211.11-(Separate)-vessel-drums/"/>
+   </purl>
+   <purl id="hs/6425/211.11-812-(Separate)-vessel-drums-with-tension-loops/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6425/211.11-812-(Separate)-vessel-drums-with-tension-loops/"/>
+   </purl>
+   <purl id="hs/6426/211.11-82-(Separate)-vessel-drums-with-cord-and-hide-bracing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6426/211.11-82-(Separate)-vessel-drums-with-cord-and-hide-bracing/"/>
+   </purl>
+   <purl id="hs/6427/211.11-85-(Separate)-vessel-drums-with-cord-and-belt-bracing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6427/211.11-85-(Separate)-vessel-drums-with-cord-and-belt-bracing/"/>
+   </purl>
+   <purl id="hs/6428/211.11-92-(Separate)-vessel-drums-with-membrane-lapped-onto-a-hoop/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6428/211.11-92-(Separate)-vessel-drums-with-membrane-lapped-onto-a-hoop/"/>
+   </purl>
+   <purl id="hs/6429/211.11-9211-(Separate)-vessel-drums-with-membrane-lapped-onto-a-hoop-with-pedal-mechanism/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6429/211.11-9211-(Separate)-vessel-drums-with-membrane-lapped-onto-a-hoop-with-pedal-mechanism/"/>
+   </purl>
+   <purl id="hs/99/211.12-Sets-of-vessel-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/99/211.12-Sets-of-vessel-drums/"/>
+   </purl>
+   <purl id="hs/6430/211.12-812-Sets-of-kettledrums-with-tension-loops’/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6430/211.12-812-Sets-of-kettledrums-with-tension-loops’/"/>
+   </purl>
+   <purl id="hs/100/211.2-Tubular-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/100/211.2-Tubular-drums/"/>
+   </purl>
+   <purl id="hs/101/211.21-Cylindrical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/101/211.21-Cylindrical-drums/"/>
+   </purl>
+   <purl id="hs/102/211.211-Single-skin-cylindrical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/102/211.211-Single-skin-cylindrical-drums/"/>
+   </purl>
+   <purl id="hs/103/211.211.1-Individual-single-skin-cylindrical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/103/211.211.1-Individual-single-skin-cylindrical-drums/"/>
+   </purl>
+   <purl id="hs/6431/211.211.1-7-Individual-single-skin-cylindrical-drums-with-membrane-nailed-to-drum/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6431/211.211.1-7-Individual-single-skin-cylindrical-drums-with-membrane-nailed-to-drum/"/>
+   </purl>
+   <purl id="hs/6432/211.211.1-92-Individual-single-skin-cylindrical-drums-with-membrane-lapped-onto-a-hoop/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6432/211.211.1-92-Individual-single-skin-cylindrical-drums-with-membrane-lapped-onto-a-hoop/"/>
+   </purl>
+   <purl id="hs/104/211.211.2-Sets-of-single-skin-cylindrical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/104/211.211.2-Sets-of-single-skin-cylindrical-drums/"/>
+   </purl>
+   <purl id="hs/105/211.212-Double-skin-cylindrical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/105/211.212-Double-skin-cylindrical-drums/"/>
+   </purl>
+   <purl id="hs/106/211.212.1-Individual-double-skin-cylindrical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/106/211.212.1-Individual-double-skin-cylindrical-drums/"/>
+   </purl>
+   <purl id="hs/2179/211.212.11-Individual-double-skin-cylindrical-drums-one-skin-used-for-playing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2179/211.212.11-Individual-double-skin-cylindrical-drums-one-skin-used-for-playing/"/>
+   </purl>
+   <purl id="hs/6434/211.212.11-92-Individual-double-skin-cylindrical-drums-one-skin-used-for-playing-with-membrane-lapped-onto-a-hoop/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6434/211.212.11-92-Individual-double-skin-cylindrical-drums-one-skin-used-for-playing-with-membrane-lapped-onto-a-hoop/"/>
+   </purl>
+   <purl id="hs/2180/211.212.12-Individual-double-skin-cylindrical-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2180/211.212.12-Individual-double-skin-cylindrical-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/6433/211.212.1-92-Individual-double-skin-cylindrical-drums-with-membrane-lapped-onto-a-hoop/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6433/211.212.1-92-Individual-double-skin-cylindrical-drums-with-membrane-lapped-onto-a-hoop/"/>
+   </purl>
+   <purl id="hs/107/211.212.2-Sets-of-double-skin-cylindrical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/107/211.212.2-Sets-of-double-skin-cylindrical-drums/"/>
+   </purl>
+   <purl id="hs/2181/211.212.21-Sets-of-double-skin-cylindrical-drums-with-single-playing-heads/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2181/211.212.21-Sets-of-double-skin-cylindrical-drums-with-single-playing-heads/"/>
+   </purl>
+   <purl id="hs/2182/211.212.22-Sets-of-double-skin-cylindrical-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2182/211.212.22-Sets-of-double-skin-cylindrical-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/108/211.22-Barrel-shaped-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/108/211.22-Barrel-shaped-drums/"/>
+   </purl>
+   <purl id="hs/5538/211.221-Single-skin-barrel-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5538/211.221-Single-skin-barrel-drums/"/>
+   </purl>
+   <purl id="hs/5539/211.221.1-Individual-single-skin-barrel-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5539/211.221.1-Individual-single-skin-barrel-drums/"/>
+   </purl>
+   <purl id="hs/5540/211.221.2-Sets-of-single-skin-barrel-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5540/211.221.2-Sets-of-single-skin-barrel-drums/"/>
+   </purl>
+   <purl id="hs/5541/211.222-Double-skin-barrel-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5541/211.222-Double-skin-barrel-drums/"/>
+   </purl>
+   <purl id="hs/5542/211.222.1-Individual-double-skin-barrel-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5542/211.222.1-Individual-double-skin-barrel-drums/"/>
+   </purl>
+   <purl id="hs/5543/211.222.11-Individual-double-skin-barrel-drums-one-skin-used-for-playing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5543/211.222.11-Individual-double-skin-barrel-drums-one-skin-used-for-playing/"/>
+   </purl>
+   <purl id="hs/5544/211.222.12-Individual-double-skin-barrel-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5544/211.222.12-Individual-double-skin-barrel-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/6435/211.222.1-7-Individual-double-skin-barrel-drums-with-membrane-nailed-to-drum/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6435/211.222.1-7-Individual-double-skin-barrel-drums-with-membrane-nailed-to-drum/"/>
+   </purl>
+   <purl id="hs/6436/211.222.1-813-Individual-double-skin-barrel-drums-with-wedge-bracing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6436/211.222.1-813-Individual-double-skin-barrel-drums-with-wedge-bracing/"/>
+   </purl>
+   <purl id="hs/6437/211.222.1-86-Individual-double-skin-barrel-drums-with-cord-and-peg-bracing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6437/211.222.1-86-Individual-double-skin-barrel-drums-with-cord-and-peg-bracing/"/>
+   </purl>
+   <purl id="hs/6438/211.222.1-92-Individual-double-skin-barrel-drums-with-membrane-lapped-onto-a-hoop/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6438/211.222.1-92-Individual-double-skin-barrel-drums-with-membrane-lapped-onto-a-hoop/"/>
+   </purl>
+   <purl id="hs/5545/211.222.2-Sets-of-double-skin-barrel-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5545/211.222.2-Sets-of-double-skin-barrel-drums/"/>
+   </purl>
+   <purl id="hs/5546/211.222.21-Sets-of-double-skin-barrel-drums-with-single-playing-heads/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5546/211.222.21-Sets-of-double-skin-barrel-drums-with-single-playing-heads/"/>
+   </purl>
+   <purl id="hs/5547/211.222.22-Sets-of-double-skin-barrel-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5547/211.222.22-Sets-of-double-skin-barrel-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/109/211.23-Double-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/109/211.23-Double-conical-drums/"/>
+   </purl>
+   <purl id="hs/5548/211.231-Single-skin-double-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5548/211.231-Single-skin-double-conical-drums/"/>
+   </purl>
+   <purl id="hs/5549/211.231.1-Individual-single-skin-double-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5549/211.231.1-Individual-single-skin-double-conical-drums/"/>
+   </purl>
+   <purl id="hs/5550/211.231.2-Sets-of-single-skin-double-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5550/211.231.2-Sets-of-single-skin-double-conical-drums/"/>
+   </purl>
+   <purl id="hs/5551/211.232-Double-skin-double-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5551/211.232-Double-skin-double-conical-drums/"/>
+   </purl>
+   <purl id="hs/5552/211.232.1-Individual-double-skin-double-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5552/211.232.1-Individual-double-skin-double-conical-drums/"/>
+   </purl>
+   <purl id="hs/5553/211.232.11-Individual-double-skin-double-conical-drums-one-skin-used-for-playing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5553/211.232.11-Individual-double-skin-double-conical-drums-one-skin-used-for-playing/"/>
+   </purl>
+   <purl id="hs/5554/211.232.12-Individual-double-skin-double-conical-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5554/211.232.12-Individual-double-skin-double-conical-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/5555/211.232.2-Sets-of-double-skin-double-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5555/211.232.2-Sets-of-double-skin-double-conical-drums/"/>
+   </purl>
+   <purl id="hs/5556/211.232.21-Sets-of-double-skin-double-conical-drums-with-single-playing-heads/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5556/211.232.21-Sets-of-double-skin-double-conical-drums-with-single-playing-heads/"/>
+   </purl>
+   <purl id="hs/5557/211.232.22-Sets-of-double-skin-double-conical-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5557/211.232.22-Sets-of-double-skin-double-conical-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/110/211.24-Hourglass-shaped-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/110/211.24-Hourglass-shaped-drums/"/>
+   </purl>
+   <purl id="hs/5558/211.241-Single-skin-hourglass-shaped-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5558/211.241-Single-skin-hourglass-shaped-drums/"/>
+   </purl>
+   <purl id="hs/5559/211.241.1-Individual-single-skin-hourglass-shaped-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5559/211.241.1-Individual-single-skin-hourglass-shaped-drums/"/>
+   </purl>
+   <purl id="hs/5560/211.241.2-Sets-of-single-skin-hourglass-shaped-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5560/211.241.2-Sets-of-single-skin-hourglass-shaped-drums/"/>
+   </purl>
+   <purl id="hs/5561/211.242-Double-skin-hourglass-shaped-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5561/211.242-Double-skin-hourglass-shaped-drums/"/>
+   </purl>
+   <purl id="hs/5562/211.242.1-Individual-double-skin-hourglass-shaped-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5562/211.242.1-Individual-double-skin-hourglass-shaped-drums/"/>
+   </purl>
+   <purl id="hs/5563/211.242.11-Individual-double-skin-hourglass-shaped-drums-one-skin-used-for-playing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5563/211.242.11-Individual-double-skin-hourglass-shaped-drums-one-skin-used-for-playing/"/>
+   </purl>
+   <purl id="hs/6439/211.242.11-81-Individual-double-skin-hourglass-shaped-drums-one-skin-used-for-playing-with-cord--(ribbon-)-bracing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6439/211.242.11-81-Individual-double-skin-hourglass-shaped-drums-one-skin-used-for-playing-with-cord--(ribbon-)-bracing/"/>
+   </purl>
+   <purl id="hs/5564/211.242.12-Individual-double-skin-hourglass-shaped-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5564/211.242.12-Individual-double-skin-hourglass-shaped-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/5565/211.242.2-Sets-of-double-skin-hourglass-shaped-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5565/211.242.2-Sets-of-double-skin-hourglass-shaped-drums/"/>
+   </purl>
+   <purl id="hs/5566/211.242.21-Sets-of-double-skin-hourglass-shaped-drums-with-single-playing-heads/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5566/211.242.21-Sets-of-double-skin-hourglass-shaped-drums-with-single-playing-heads/"/>
+   </purl>
+   <purl id="hs/5567/211.242.22-Sets-of-double-skin-hourglass-shaped-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5567/211.242.22-Sets-of-double-skin-hourglass-shaped-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/111/211.25-Conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/111/211.25-Conical-drums/"/>
+   </purl>
+   <purl id="hs/2183/211.251-Single-skin-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2183/211.251-Single-skin-conical-drums/"/>
+   </purl>
+   <purl id="hs/2185/211.251.1-Individual-single-skin-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2185/211.251.1-Individual-single-skin-conical-drums/"/>
+   </purl>
+   <purl id="hs/2186/211.251.2-Sets-of-single-skin-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2186/211.251.2-Sets-of-single-skin-conical-drums/"/>
+   </purl>
+   <purl id="hs/2184/211.252-Double-skin-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2184/211.252-Double-skin-conical-drums/"/>
+   </purl>
+   <purl id="hs/2187/211.252.1-Individual-double-skin-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2187/211.252.1-Individual-double-skin-conical-drums/"/>
+   </purl>
+   <purl id="hs/2189/211.252.11-Individual-double-skin-conical-drums-one-skin-used-for-playing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2189/211.252.11-Individual-double-skin-conical-drums-one-skin-used-for-playing/"/>
+   </purl>
+   <purl id="hs/2190/211.252.12-Individual-double-skin-conical-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2190/211.252.12-Individual-double-skin-conical-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/6440/211.252.1-81-Individual-double-skin-conical-drums-with-cord--(ribbon-)-bracing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6440/211.252.1-81-Individual-double-skin-conical-drums-with-cord--(ribbon-)-bracing/"/>
+   </purl>
+   <purl id="hs/2188/211.252.2-Sets-of-double-skin-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2188/211.252.2-Sets-of-double-skin-conical-drums/"/>
+   </purl>
+   <purl id="hs/2191/211.252.21-Sets-of-double-skin-conical-drums-with-single-playing-heads/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2191/211.252.21-Sets-of-double-skin-conical-drums-with-single-playing-heads/"/>
+   </purl>
+   <purl id="hs/2192/211.252.22-Sets-of-double-skin-conical-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2192/211.252.22-Sets-of-double-skin-conical-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/112/211.26-Goblet-shaped-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/112/211.26-Goblet-shaped-drums/"/>
+   </purl>
+   <purl id="hs/6450/211.26-6-Single-skin-goblet-shaped-drums-with-membrane-glued-to-drum/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6450/211.26-6-Single-skin-goblet-shaped-drums-with-membrane-glued-to-drum/"/>
+   </purl>
+   <purl id="hs/5568/211.27-Cylindro-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5568/211.27-Cylindro-conical-drums/"/>
+   </purl>
+   <purl id="hs/5569/211.271-Single-skin-cylindro-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5569/211.271-Single-skin-cylindro-conical-drums/"/>
+   </purl>
+   <purl id="hs/5570/211.271.1-Individual-single-skin-cylindro-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5570/211.271.1-Individual-single-skin-cylindro-conical-drums/"/>
+   </purl>
+   <purl id="hs/5571/211.271.2-Sets-of-single-skin-cylindro-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5571/211.271.2-Sets-of-single-skin-cylindro-conical-drums/"/>
+   </purl>
+   <purl id="hs/5572/211.272-Double-skin-cylindro-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5572/211.272-Double-skin-cylindro-conical-drums/"/>
+   </purl>
+   <purl id="hs/5573/211.272.1-Individual-double-skin-cylindro-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5573/211.272.1-Individual-double-skin-cylindro-conical-drums/"/>
+   </purl>
+   <purl id="hs/5574/211.272.11-Individual-double-skin-cylindro-conical-drums-one-skin-used-for-playing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5574/211.272.11-Individual-double-skin-cylindro-conical-drums-one-skin-used-for-playing/"/>
+   </purl>
+   <purl id="hs/5575/211.272.12-Individual-double-skin-cylindro-conical-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5575/211.272.12-Individual-double-skin-cylindro-conical-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/5576/211.272.2-Sets-of-double-skin-cylindro-conical-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5576/211.272.2-Sets-of-double-skin-cylindro-conical-drums/"/>
+   </purl>
+   <purl id="hs/5577/211.272.21-Sets-of-double-skin-cylindro-conical-drums-with-single-playing-heads/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5577/211.272.21-Sets-of-double-skin-cylindro-conical-drums-with-single-playing-heads/"/>
+   </purl>
+   <purl id="hs/5578/211.272.22-Sets-of-double-skin-cylindro-conical-drums-both-heads-played/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5578/211.272.22-Sets-of-double-skin-cylindro-conical-drums-both-heads-played/"/>
+   </purl>
+   <purl id="hs/5579/211.28-Vase-shaped-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5579/211.28-Vase-shaped-drums/"/>
+   </purl>
+   <purl id="hs/114/211.3-Frame-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/114/211.3-Frame-drums/"/>
+   </purl>
+   <purl id="hs/115/211.31-Frame-drums-without-handle/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/115/211.31-Frame-drums-without-handle/"/>
+   </purl>
+   <purl id="hs/116/211.311-Single-skin-frame-drums-without-handle/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/116/211.311-Single-skin-frame-drums-without-handle/"/>
+   </purl>
+   <purl id="hs/6441/211.311-7-Single-skin-frame-drums-without-handle-with-membrane-nailed-to-drum/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6441/211.311-7-Single-skin-frame-drums-without-handle-with-membrane-nailed-to-drum/"/>
+   </purl>
+   <purl id="hs/6442/211.311-86-Single-skin-frame-drums-without-handle-with-cord-and-peg-bracing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6442/211.311-86-Single-skin-frame-drums-without-handle-with-cord-and-peg-bracing/"/>
+   </purl>
+   <purl id="hs/6443/211.311-92-Single-skin-frame-drums-without-handle-with-membrane-lapped-onto-a-hoop/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6443/211.311-92-Single-skin-frame-drums-without-handle-with-membrane-lapped-onto-a-hoop/"/>
+   </purl>
+   <purl id="hs/117/211.312-Double-skin-frame-drums-without-handle/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/117/211.312-Double-skin-frame-drums-without-handle/"/>
+   </purl>
+   <purl id="hs/6444/211.312-7-Double-skin-frame-drums-without-handle-with-membrane-nailed-to-drum/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6444/211.312-7-Double-skin-frame-drums-without-handle-with-membrane-nailed-to-drum/"/>
+   </purl>
+   <purl id="hs/118/211.32-Frame-drums-with-handle/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/118/211.32-Frame-drums-with-handle/"/>
+   </purl>
+   <purl id="hs/119/211.321-Single-skin-frame-drums-with-handle/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/119/211.321-Single-skin-frame-drums-with-handle/"/>
+   </purl>
+   <purl id="hs/6445/211.321-86-Single-skin-frame-drums-with-handle-with-cord-and-peg-bracing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6445/211.321-86-Single-skin-frame-drums-with-handle-with-cord-and-peg-bracing/"/>
+   </purl>
+   <purl id="hs/6446/211.321-92-Single-skin-frame-drums-with-handle-with-membrane-lapped-onto-a-hoop/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6446/211.321-92-Single-skin-frame-drums-with-handle-with-membrane-lapped-onto-a-hoop/"/>
+   </purl>
+   <purl id="hs/120/211.322-Double-skin-frame-drums-with-handle/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/120/211.322-Double-skin-frame-drums-with-handle/"/>
+   </purl>
+   <purl id="hs/121/212-Rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/121/212-Rattle-drums/"/>
+   </purl>
+   <purl id="hs/5580/212.1-Vessel-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5580/212.1-Vessel-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5581/212.2-Tubular-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5581/212.2-Tubular-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5582/212.21-Cylindrical-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5582/212.21-Cylindrical-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5583/212.211-Individual-cylindrical-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5583/212.211-Individual-cylindrical-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5584/212.212-Sets-of-cylindrical-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5584/212.212-Sets-of-cylindrical-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5585/212.22-Barrel-shaped-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5585/212.22-Barrel-shaped-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5586/212.221-Individual-barrel-shaped-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5586/212.221-Individual-barrel-shaped-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5587/212.222-Sets-of-barrel-shaped-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5587/212.222-Sets-of-barrel-shaped-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5588/212.23-Double-conical-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5588/212.23-Double-conical-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5589/212.231-Individual-double-conical-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5589/212.231-Individual-double-conical-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5590/212.232-Sets-of-double-conical-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5590/212.232-Sets-of-double-conical-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5591/212.24-Hourglass-shaped-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5591/212.24-Hourglass-shaped-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5592/212.241-Individual-hourglass-shaped-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5592/212.241-Individual-hourglass-shaped-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5593/212.242-Sets-of-hourglass-shaped-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5593/212.242-Sets-of-hourglass-shaped-rattle-drums/"/>
+   </purl>
+   <purl id="hs/6447/212.242-7-Sets-of-hourglass-shaped-rattle-drums-with-membrane-nailed-to-drum/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6447/212.242-7-Sets-of-hourglass-shaped-rattle-drums-with-membrane-nailed-to-drum/"/>
+   </purl>
+   <purl id="hs/6448/212.242-91-Sets-of-hourglass-shaped-rattle-drums-with-membrane-lapped-onto-a-ring-of-cord/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6448/212.242-91-Sets-of-hourglass-shaped-rattle-drums-with-membrane-lapped-onto-a-ring-of-cord/"/>
+   </purl>
+   <purl id="hs/5594/212.3-Frame-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5594/212.3-Frame-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5595/212.31-Single-skin-frame-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5595/212.31-Single-skin-frame-rattle-drums/"/>
+   </purl>
+   <purl id="hs/6449/212.31-92-Single-skin-frame-rattle-drums-with-membrane-lapped-onto-a-hoop/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6449/212.31-92-Single-skin-frame-rattle-drums-with-membrane-lapped-onto-a-hoop/"/>
+   </purl>
+   <purl id="hs/5596/212.32-Double-skin-frame-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5596/212.32-Double-skin-frame-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5597/212.321-Individual-double-skin-frame-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5597/212.321-Individual-double-skin-frame-rattle-drums/"/>
+   </purl>
+   <purl id="hs/5598/212.322-Sets-of-double-skin-frame-rattle-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5598/212.322-Sets-of-double-skin-frame-rattle-drums/"/>
+   </purl>
+   <purl id="hs/123/23-Friction-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/123/23-Friction-drums/"/>
+   </purl>
+   <purl id="hs/124/231-Friction-drums-with-stick/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/124/231-Friction-drums-with-stick/"/>
+   </purl>
+   <purl id="hs/125/231.1-Friction-drums-with-inserted-stick/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/125/231.1-Friction-drums-with-inserted-stick/"/>
+   </purl>
+   <purl id="hs/126/231.11-Friction-drums-with-fixed-stick/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/126/231.11-Friction-drums-with-fixed-stick/"/>
+   </purl>
+   <purl id="hs/127/231.12-Friction-drums-with-semi-fixed-stick/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/127/231.12-Friction-drums-with-semi-fixed-stick/"/>
+   </purl>
+   <purl id="hs/128/231.13-Friction-drums-with-free-stick/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/128/231.13-Friction-drums-with-free-stick/"/>
+   </purl>
+   <purl id="hs/129/231.2-Friction-drums-with-tied-stick/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/129/231.2-Friction-drums-with-tied-stick/"/>
+   </purl>
+   <purl id="hs/130/232-Friction-drums-with-cord/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/130/232-Friction-drums-with-cord/"/>
+   </purl>
+   <purl id="hs/131/232.1-Stationary-friction-drums-with-friction-cord/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/131/232.1-Stationary-friction-drums-with-friction-cord/"/>
+   </purl>
+   <purl id="hs/132/232.11-Single-skin-stationary-drums-with-friction-cord/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/132/232.11-Single-skin-stationary-drums-with-friction-cord/"/>
+   </purl>
+   <purl id="hs/133/232.12-Double-skin-stationary-drums-with-frictioncord/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/133/232.12-Double-skin-stationary-drums-with-frictioncord/"/>
+   </purl>
+   <purl id="hs/134/232.2-Friction-drum-with-whirling-stick/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/134/232.2-Friction-drum-with-whirling-stick/"/>
+   </purl>
+   <purl id="hs/135/233-Hand-friction-drums/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/135/233-Hand-friction-drums/"/>
+   </purl>
+   <purl id="hs/137/24-Singing-membranes-(Kazoos)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/137/24-Singing-membranes-(Kazoos)/"/>
+   </purl>
+   <purl id="hs/138/241-Free-kazoos/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/138/241-Free-kazoos/"/>
+   </purl>
+   <purl id="hs/139/242-Tube--or-vessel-kazoos/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/139/242-Tube--or-vessel-kazoos/"/>
+   </purl>
+   <purl id="hs/140/3-Chordophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/140/3-Chordophones/"/>
+   </purl>
+   <purl id="hs/141/31-Simple-chordophones-or-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/141/31-Simple-chordophones-or-zithers/"/>
+   </purl>
+   <purl id="hs/142/311-Bar-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/142/311-Bar-zithers/"/>
+   </purl>
+   <purl id="hs/143/311.1-Musical-bows/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/143/311.1-Musical-bows/"/>
+   </purl>
+   <purl id="hs/144/311.11-ldiochord-musical-bows/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/144/311.11-ldiochord-musical-bows/"/>
+   </purl>
+   <purl id="hs/145/311.111-Mono-idiochord-musical-bows/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/145/311.111-Mono-idiochord-musical-bows/"/>
+   </purl>
+   <purl id="hs/146/311.112-Poly-idiochord-musical-bows-or-harp-bows/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/146/311.112-Poly-idiochord-musical-bows-or-harp-bows/"/>
+   </purl>
+   <purl id="hs/147/311.12-Heterochord-musical-bows/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/147/311.12-Heterochord-musical-bows/"/>
+   </purl>
+   <purl id="hs/148/311.121-Mono-heterochord-musical-bows/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/148/311.121-Mono-heterochord-musical-bows/"/>
+   </purl>
+   <purl id="hs/149/311.121.1-Mono-heterochord-musical-bows-without-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/149/311.121.1-Mono-heterochord-musical-bows-without-resonator/"/>
+   </purl>
+   <purl id="hs/150/311.121.11-Mono-heterochord-musical-bows-without-resonator-or-tuning-noose/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/150/311.121.11-Mono-heterochord-musical-bows-without-resonator-or-tuning-noose/"/>
+   </purl>
+   <purl id="hs/151/311.121.12-Mono-heterochord-musical-bows-without-resonator-with-tuning-noose/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/151/311.121.12-Mono-heterochord-musical-bows-without-resonator-with-tuning-noose/"/>
+   </purl>
+   <purl id="hs/6451/311.121.1-5-Mono-heterochord-musical-bows-without-resonator-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6451/311.121.1-5-Mono-heterochord-musical-bows-without-resonator-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/152/311.121.2-Mono-heterochord-musical-bows-with-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/152/311.121.2-Mono-heterochord-musical-bows-with-resonator/"/>
+   </purl>
+   <purl id="hs/153/311.121.21-Mono-heterochord-musical-bows-with-independent-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/153/311.121.21-Mono-heterochord-musical-bows-with-independent-resonator/"/>
+   </purl>
+   <purl id="hs/154/311.121.22-Mono-heterochord-musical-bows-with-resonator-attached/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/154/311.121.22-Mono-heterochord-musical-bows-with-resonator-attached/"/>
+   </purl>
+   <purl id="hs/155/311.121.221-Mono-heterochord-musical-bows-with-resonator-attached-without-tuning-noose/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/155/311.121.221-Mono-heterochord-musical-bows-with-resonator-attached-without-tuning-noose/"/>
+   </purl>
+   <purl id="hs/156/311.121.222-Mono-heterochord-musical-bows-with-resonator-attached-with-tuning-noose/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/156/311.121.222-Mono-heterochord-musical-bows-with-resonator-attached-with-tuning-noose/"/>
+   </purl>
+   <purl id="hs/157/311.122-Poly-heterochord-musical-bows/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/157/311.122-Poly-heterochord-musical-bows/"/>
+   </purl>
+   <purl id="hs/158/311.122.1-Poly-heterochord-musical-bows-without-tuning-noose/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/158/311.122.1-Poly-heterochord-musical-bows-without-tuning-noose/"/>
+   </purl>
+   <purl id="hs/159/311.122.2-Poly-heterochord-musical-bows-with-tuning-noose/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/159/311.122.2-Poly-heterochord-musical-bows-with-tuning-noose/"/>
+   </purl>
+   <purl id="hs/160/311.2-Stick-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/160/311.2-Stick-zithers/"/>
+   </purl>
+   <purl id="hs/161/311.21-Musical-bow-cum-stick/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/161/311.21-Musical-bow-cum-stick/"/>
+   </purl>
+   <purl id="hs/162/311.22-(True)-stick-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/162/311.22-(True)-stick-zithers/"/>
+   </purl>
+   <purl id="hs/163/311.221-(True)-stick-zithers-with-one-resonator-gourd/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/163/311.221-(True)-stick-zithers-with-one-resonator-gourd/"/>
+   </purl>
+   <purl id="hs/164/311.222-(True)-stick-zithers-with-several-resonator-gourds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/164/311.222-(True)-stick-zithers-with-several-resonator-gourds/"/>
+   </purl>
+   <purl id="hs/165/312-Tube-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/165/312-Tube-zithers/"/>
+   </purl>
+   <purl id="hs/166/312.1-Whole-tube-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/166/312.1-Whole-tube-zithers/"/>
+   </purl>
+   <purl id="hs/167/312.11-ldiochord-(true)-tube-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/167/312.11-ldiochord-(true)-tube-zithers/"/>
+   </purl>
+   <purl id="hs/168/312.12-Heterochord-(true)-tube-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/168/312.12-Heterochord-(true)-tube-zithers/"/>
+   </purl>
+   <purl id="hs/169/312.121-Heterochord-(true)-tube-zithers-without-extra-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/169/312.121-Heterochord-(true)-tube-zithers-without-extra-resonator/"/>
+   </purl>
+   <purl id="hs/170/312.122-Heterochord-(true)-tube-zithers-with-extra-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/170/312.122-Heterochord-(true)-tube-zithers-with-extra-resonator/"/>
+   </purl>
+   <purl id="hs/171/312.2-Half-tube-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/171/312.2-Half-tube-zithers/"/>
+   </purl>
+   <purl id="hs/172/312.21-ldiochord-half-tube-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/172/312.21-ldiochord-half-tube-zithers/"/>
+   </purl>
+   <purl id="hs/173/312.22-Heterochord-half-tube-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/173/312.22-Heterochord-half-tube-zithers/"/>
+   </purl>
+   <purl id="hs/174/313-Raft-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/174/313-Raft-zithers/"/>
+   </purl>
+   <purl id="hs/175/313.1-ldiochord-raft-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/175/313.1-ldiochord-raft-zithers/"/>
+   </purl>
+   <purl id="hs/176/313.2-Heterochord-raft-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/176/313.2-Heterochord-raft-zithers/"/>
+   </purl>
+   <purl id="hs/6452/313.2-5-Heterochord-raft-zithers-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6452/313.2-5-Heterochord-raft-zithers-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/177/314-Board-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/177/314-Board-zithers/"/>
+   </purl>
+   <purl id="hs/178/314.1-True-board-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/178/314.1-True-board-zithers/"/>
+   </purl>
+   <purl id="hs/179/314.11-True-board-zithers-without-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/179/314.11-True-board-zithers-without-resonator/"/>
+   </purl>
+   <purl id="hs/6453/314.11-4-8-True-board-zithers-without-resonator-sounded-by-hammers-or-beaters-with-keyboard/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6453/314.11-4-8-True-board-zithers-without-resonator-sounded-by-hammers-or-beaters-with-keyboard/"/>
+   </purl>
+   <purl id="hs/6480//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6480//"/>
+   </purl>
+   <purl id="hs/180/314.12-True-board-zithers-with-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/180/314.12-True-board-zithers-with-resonator/"/>
+   </purl>
+   <purl id="hs/181/314.121-True-board-zithers-with-resonator-bowl/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/181/314.121-True-board-zithers-with-resonator-bowl/"/>
+   </purl>
+   <purl id="hs/6454/314.121-9-Mechanically-driven-true-board-zithers-with-resonator-bowl/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6454/314.121-9-Mechanically-driven-true-board-zithers-with-resonator-bowl/"/>
+   </purl>
+   <purl id="hs/182/314.122-True-board-zithers-with-resonator-box-(box-zither)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/182/314.122-True-board-zithers-with-resonator-box-(box-zither)/"/>
+   </purl>
+   <purl id="hs/6455/314.122-3-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-blowing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6455/314.122-3-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-blowing/"/>
+   </purl>
+   <purl id="hs/6456/314.122-4-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-hammers-or-beaters/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6456/314.122-4-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-hammers-or-beaters/"/>
+   </purl>
+   <purl id="hs/6458/314.122-4-8-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-hammers-or-beaters-with-keyboard/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6458/314.122-4-8-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-hammers-or-beaters-with-keyboard/"/>
+   </purl>
+   <purl id="hs/6459/314.122-5-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6459/314.122-5-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/6460/314.122-6-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-plectrum/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6460/314.122-6-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-plectrum/"/>
+   </purl>
+   <purl id="hs/6461/314.122-6-8-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-plectrum-with-keyboard/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6461/314.122-6-8-True-board-zithers-with-resonator-box-(box-zither)-sounded-by-plectrum-with-keyboard/"/>
+   </purl>
+   <purl id="hs/6481//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6481//"/>
+   </purl>
+   <purl id="hs/6518/314.122-8-True-board-zithers-with-resonator-box-(box-zither)-with-keyboard/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6518/314.122-8-True-board-zithers-with-resonator-box-(box-zither)-with-keyboard/"/>
+   </purl>
+   <purl id="hs/6462/314.122-9-Mechanically-driven-true-board-zithers-with-resonator-box-(box-zither)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6462/314.122-9-Mechanically-driven-true-board-zithers-with-resonator-box-(box-zither)/"/>
+   </purl>
+   <purl id="hs/183/314.2-Board-zither-variations/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/183/314.2-Board-zither-variations/"/>
+   </purl>
+   <purl id="hs/184/314.21-Ground-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/184/314.21-Ground-zithers/"/>
+   </purl>
+   <purl id="hs/185/314.22-Harp-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/185/314.22-Harp-zithers/"/>
+   </purl>
+   <purl id="hs/186/315-Trough-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/186/315-Trough-zithers/"/>
+   </purl>
+   <purl id="hs/187/315.1-Trough-zithers-without-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/187/315.1-Trough-zithers-without-resonator/"/>
+   </purl>
+   <purl id="hs/6464/315.1-5-Trough-zithers-without-resonator-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6464/315.1-5-Trough-zithers-without-resonator-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/188/315.2-Trough-zithers-with-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/188/315.2-Trough-zithers-with-resonator/"/>
+   </purl>
+   <purl id="hs/5607/316-Frame-zithers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5607/316-Frame-zithers/"/>
+   </purl>
+   <purl id="hs/5608/316.1-Frame-zithers-without-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5608/316.1-Frame-zithers-without-resonator/"/>
+   </purl>
+   <purl id="hs/5609/316.2-Frame-zithers-with-resonator/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5609/316.2-Frame-zithers-with-resonator/"/>
+   </purl>
+   <purl id="hs/192/32-Composite-chordophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/192/32-Composite-chordophones/"/>
+   </purl>
+   <purl id="hs/193/321-Lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/193/321-Lutes/"/>
+   </purl>
+   <purl id="hs/194/321.1-Bow-lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/194/321.1-Bow-lutes/"/>
+   </purl>
+   <purl id="hs/195/321.2-Yoke-lutes-or-lyres/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/195/321.2-Yoke-lutes-or-lyres/"/>
+   </purl>
+   <purl id="hs/196/321.21-Bowl-lyres/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/196/321.21-Bowl-lyres/"/>
+   </purl>
+   <purl id="hs/6465/321.21-5-Bowl-lyres-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6465/321.21-5-Bowl-lyres-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/197/321.22-Box-lyres/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/197/321.22-Box-lyres/"/>
+   </purl>
+   <purl id="hs/198/321.3-Handle-lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/198/321.3-Handle-lutes/"/>
+   </purl>
+   <purl id="hs/199/321.31-Spike-lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/199/321.31-Spike-lutes/"/>
+   </purl>
+   <purl id="hs/200/321.311-Spike-bowl-lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/200/321.311-Spike-bowl-lutes/"/>
+   </purl>
+   <purl id="hs/6466/321.311-7-Spike-bowl-lutes-sounded-by-bowing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6466/321.311-7-Spike-bowl-lutes-sounded-by-bowing/"/>
+   </purl>
+   <purl id="hs/201/321.312-Spike-box-lutes-or-spike-guitars/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/201/321.312-Spike-box-lutes-or-spike-guitars/"/>
+   </purl>
+   <purl id="hs/6467/321.312-5-Spike-box-lutes-or-spike-guitars-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6467/321.312-5-Spike-box-lutes-or-spike-guitars-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/6468/321.312-7-Spike-box-lutes-or-spike-guitars-sounded-by-bowing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6468/321.312-7-Spike-box-lutes-or-spike-guitars-sounded-by-bowing/"/>
+   </purl>
+   <purl id="hs/202/321.313-Spike-tube-lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/202/321.313-Spike-tube-lutes/"/>
+   </purl>
+   <purl id="hs/6710/321.313-7-Spike-tube-lutes-played-by-bowing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6710/321.313-7-Spike-tube-lutes-played-by-bowing/"/>
+   </purl>
+   <purl id="hs/204/321.32-Necked-lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/204/321.32-Necked-lutes/"/>
+   </purl>
+   <purl id="hs/205/321.321-Necked-bowl-lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/205/321.321-Necked-bowl-lutes/"/>
+   </purl>
+   <purl id="hs/6469/321.321-5-Necked-bowl-lutes-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6469/321.321-5-Necked-bowl-lutes-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/6470/321.321-7-Necked-bowl-lutes-sounded-by-bowing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6470/321.321-7-Necked-bowl-lutes-sounded-by-bowing/"/>
+   </purl>
+   <purl id="hs/206/321.322-Necked-box-lutes-or-necked-guitars/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/206/321.322-Necked-box-lutes-or-necked-guitars/"/>
+   </purl>
+   <purl id="hs/6471/321.322-5-Necked-box-lutes-or-necked-guitars-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6471/321.322-5-Necked-box-lutes-or-necked-guitars-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/6472/321.322-7-Necked-box-lutes-or-necked-guitars-sounded-by-bowing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6472/321.322-7-Necked-box-lutes-or-necked-guitars-sounded-by-bowing/"/>
+   </purl>
+   <purl id="hs/6473/321.322-71-Necked-box-lutes-or-necked-guitars-sounded-by-bowing-with-a-bow/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6473/321.322-71-Necked-box-lutes-or-necked-guitars-sounded-by-bowing-with-a-bow/"/>
+   </purl>
+   <purl id="hs/6474/321.322-8-Necked-box-lutes-or-necked-guitars-with-keyboard/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6474/321.322-8-Necked-box-lutes-or-necked-guitars-with-keyboard/"/>
+   </purl>
+   <purl id="hs/6475/321.322-9-Mechanically-driven-necked-box-lutes-or-necked-guitars/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6475/321.322-9-Mechanically-driven-necked-box-lutes-or-necked-guitars/"/>
+   </purl>
+   <purl id="hs/2159/321.33-Half-spike-lutes-or-tanged-lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2159/321.33-Half-spike-lutes-or-tanged-lutes/"/>
+   </purl>
+   <purl id="hs/5621/321.331-Half-spike-or-tanged-bowl-lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5621/321.331-Half-spike-or-tanged-bowl-lutes/"/>
+   </purl>
+   <purl id="hs/5622/321.332-Half-spike-or-tanged-box-lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5622/321.332-Half-spike-or-tanged-box-lutes/"/>
+   </purl>
+   <purl id="hs/5660/322-Harps/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5660/322-Harps/"/>
+   </purl>
+   <purl id="hs/5661/322.1-Open-harps/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5661/322.1-Open-harps/"/>
+   </purl>
+   <purl id="hs/5665/322.11-Arched-harps/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5665/322.11-Arched-harps/"/>
+   </purl>
+   <purl id="hs/5667/322.111-Arched-harps---Wachsmann-type-1/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5667/322.111-Arched-harps---Wachsmann-type-1/"/>
+   </purl>
+   <purl id="hs/5668/322.112-Arched-harps---Wachsmann-type-2/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5668/322.112-Arched-harps---Wachsmann-type-2/"/>
+   </purl>
+   <purl id="hs/5670/322.113-Arched-harps---Wachsmann-type-3/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5670/322.113-Arched-harps---Wachsmann-type-3/"/>
+   </purl>
+   <purl id="hs/6476/322.11-5-Arched-harps-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6476/322.11-5-Arched-harps-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/5666/322.12-Angular-harps/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5666/322.12-Angular-harps/"/>
+   </purl>
+   <purl id="hs/5662/322.2-Frame-harps/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5662/322.2-Frame-harps/"/>
+   </purl>
+   <purl id="hs/5671/322.21-Frame-harps-without-tuning-action/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5671/322.21-Frame-harps-without-tuning-action/"/>
+   </purl>
+   <purl id="hs/5675/322.211-Diatonic-frame-harps-without-tuning-action/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5675/322.211-Diatonic-frame-harps-without-tuning-action/"/>
+   </purl>
+   <purl id="hs/5676/322.212-Chromatic-frame-harps-without-tuning-action/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5676/322.212-Chromatic-frame-harps-without-tuning-action/"/>
+   </purl>
+   <purl id="hs/5677/322.212.1-Chromatic-frame-harps-without-tuning-action-with-the-strings-in-one-plane/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5677/322.212.1-Chromatic-frame-harps-without-tuning-action-with-the-strings-in-one-plane/"/>
+   </purl>
+   <purl id="hs/5678/322.212.2-Chromatic-frame-harps-without-tuning-action-with-the-strings-in-two-planes-crossing-one-another/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5678/322.212.2-Chromatic-frame-harps-without-tuning-action-with-the-strings-in-two-planes-crossing-one-another/"/>
+   </purl>
+   <purl id="hs/5679/322.212.3-Chromatic-frame-harps-without-tuning-action-with-the-strings-in-two-or-more-parallel-planes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5679/322.212.3-Chromatic-frame-harps-without-tuning-action-with-the-strings-in-two-or-more-parallel-planes/"/>
+   </purl>
+   <purl id="hs/5672/322.22-Frame-harps-with-tuning-action/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5672/322.22-Frame-harps-with-tuning-action/"/>
+   </purl>
+   <purl id="hs/5673/322.221-Frame-harps-with-manual-action/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5673/322.221-Frame-harps-with-manual-action/"/>
+   </purl>
+   <purl id="hs/6477/322.221-5-Frame-harps-with-manual-action-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6477/322.221-5-Frame-harps-with-manual-action-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/5674/322.222-Frame-harps-with-pedal-action/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5674/322.222-Frame-harps-with-pedal-action/"/>
+   </purl>
+   <purl id="hs/6478/322.222-5-Frame-harps-with-pedal-action-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6478/322.222-5-Frame-harps-with-pedal-action-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/5663/323-Spike-harps-with-tall-stringholders/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5663/323-Spike-harps-with-tall-stringholders/"/>
+   </purl>
+   <purl id="hs/5680/323.1-Arched-spike-harps-with-tall-stringholders/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5680/323.1-Arched-spike-harps-with-tall-stringholders/"/>
+   </purl>
+   <purl id="hs/5681/323.2-Spike-harps-with-pressure-bridges-bridge-harps-or-harp-lutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5681/323.2-Spike-harps-with-pressure-bridges-bridge-harps-or-harp-lutes/"/>
+   </purl>
+   <purl id="hs/6479/323.2-5-Spike-harps-with-pressure-bridges-bridge-harps-or-harp-lutes-sounded-by-the-bare-fingers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6479/323.2-5-Spike-harps-with-pressure-bridges-bridge-harps-or-harp-lutes-sounded-by-the-bare-fingers/"/>
+   </purl>
+   <purl id="hs/5664/324-Tanged-harps-with-tall-stringholders/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5664/324-Tanged-harps-with-tall-stringholders/"/>
+   </purl>
+   <purl id="hs/222/33-Variable-tension-chordophones-or-plucked-drums-/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/222/33-Variable-tension-chordophones-or-plucked-drums-/"/>
+   </purl>
+   <purl id="hs/223/331-Variable-tension-chordophones-or-plucked-drums-with-loose-string-attached-to-the-drum-head/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/223/331-Variable-tension-chordophones-or-plucked-drums-with-loose-string-attached-to-the-drum-head/"/>
+   </purl>
+   <purl id="hs/224/332-Variable-tension-chordophones-or-plucked-drums-with-string-attached-to-the-end-of-a-neck-and-to-the-drum-head/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/224/332-Variable-tension-chordophones-or-plucked-drums-with-string-attached-to-the-end-of-a-neck-and-to-the-drum-head/"/>
+   </purl>
+   <purl id="hs/225/4-Aerophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/225/4-Aerophones/"/>
+   </purl>
+   <purl id="hs/226/41-Free-aerophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/226/41-Free-aerophones/"/>
+   </purl>
+   <purl id="hs/227/411-Displacement-free-aerophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/227/411-Displacement-free-aerophones/"/>
+   </purl>
+   <purl id="hs/228/412-Interruptive-free-aerophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/228/412-Interruptive-free-aerophones/"/>
+   </purl>
+   <purl id="hs/229/412.1-Idiophonic-interruptive-aerophones-or-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/229/412.1-Idiophonic-interruptive-aerophones-or-reeds/"/>
+   </purl>
+   <purl id="hs/230/412.11-Idiophonic-interruptive-aerophones-or-reeds:-paired-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/230/412.11-Idiophonic-interruptive-aerophones-or-reeds:-paired-reeds/"/>
+   </purl>
+   <purl id="hs/231/412.12-Beating-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/231/412.12-Beating-reeds/"/>
+   </purl>
+   <purl id="hs/232/412.121-Individual-beating-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/232/412.121-Individual-beating-reeds/"/>
+   </purl>
+   <purl id="hs/233/412.122-Sets-of-beating-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/233/412.122-Sets-of-beating-reeds/"/>
+   </purl>
+   <purl id="hs/234/412.13-Free-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/234/412.13-Free-reeds/"/>
+   </purl>
+   <purl id="hs/235/412.131-(Individual)-free-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/235/412.131-(Individual)-free-reeds/"/>
+   </purl>
+   <purl id="hs/236/412.132-Sets-of-free-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/236/412.132-Sets-of-free-reeds/"/>
+   </purl>
+   <purl id="hs/6485/412.132-62-Sets-of-free-reeds-with-flexible-air-reservoir/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6485/412.132-62-Sets-of-free-reeds-with-flexible-air-reservoir/"/>
+   </purl>
+   <purl id="hs/6769/412.132-62-8-Sets-of-free-reeds-with-flexible-air-reservoir-with-keyboard/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6769/412.132-62-8-Sets-of-free-reeds-with-flexible-air-reservoir-with-keyboard/"/>
+   </purl>
+   <purl id="hs/6484/412.132-6-9-Mechanically-driven-sets-of-free-reeds-with-air-reservoir/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6484/412.132-6-9-Mechanically-driven-sets-of-free-reeds-with-air-reservoir/"/>
+   </purl>
+   <purl id="hs/6487/412.132-9-Mechanically-driven-sets-of-free-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6487/412.132-9-Mechanically-driven-sets-of-free-reeds/"/>
+   </purl>
+   <purl id="hs/237/412.14-Ribbon-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/237/412.14-Ribbon-reeds/"/>
+   </purl>
+   <purl id="hs/238/412.15-Retreating-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/238/412.15-Retreating-reeds/"/>
+   </purl>
+   <purl id="hs/6482/412.1-9-Mechanically-driven-idiophonic-interruptive-aerophones-or-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6482/412.1-9-Mechanically-driven-idiophonic-interruptive-aerophones-or-reeds/"/>
+   </purl>
+   <purl id="hs/239/412.2-Non-idiophonic-interruptive-instruments/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/239/412.2-Non-idiophonic-interruptive-instruments/"/>
+   </purl>
+   <purl id="hs/240/412.21-Rotating-aerophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/240/412.21-Rotating-aerophones/"/>
+   </purl>
+   <purl id="hs/241/412.22-Whirling-aerophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/241/412.22-Whirling-aerophones/"/>
+   </purl>
+   <purl id="hs/6483/412-122-8-Sets-of-beating-reeds-with-keyboard/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6483/412-122-8-Sets-of-beating-reeds-with-keyboard/"/>
+   </purl>
+   <purl id="hs/242/413-Plosive-aerophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/242/413-Plosive-aerophones/"/>
+   </purl>
+   <purl id="hs/243/413.1-Explosive-aerophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/243/413.1-Explosive-aerophones/"/>
+   </purl>
+   <purl id="hs/244/413.2-Implosive-aerophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/244/413.2-Implosive-aerophones/"/>
+   </purl>
+   <purl id="hs/245/42-Wind-instruments-proper/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/245/42-Wind-instruments-proper/"/>
+   </purl>
+   <purl id="hs/246/420-Edge-tone-instruments-that-are-not-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/246/420-Edge-tone-instruments-that-are-not-flutes/"/>
+   </purl>
+   <purl id="hs/247/421-Edge-instruments-or-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/247/421-Edge-instruments-or-flutes/"/>
+   </purl>
+   <purl id="hs/248/421.1-Flutes-without-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/248/421.1-Flutes-without-duct/"/>
+   </purl>
+   <purl id="hs/249/421.11-End-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/249/421.11-End-blown-flutes/"/>
+   </purl>
+   <purl id="hs/250/421.111-(Single)-end-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/250/421.111-(Single)-end-blown-flutes/"/>
+   </purl>
+   <purl id="hs/251/421.111.1-Open-single-end-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/251/421.111.1-Open-single-end-blown-flutes/"/>
+   </purl>
+   <purl id="hs/252/421.111.11-Open-single-end-blown-flutes-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/252/421.111.11-Open-single-end-blown-flutes-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/253/421.111.12-Open-single-end-blown-flutes-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/253/421.111.12-Open-single-end-blown-flutes-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/254/421.111.2-Stopped-single-end-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/254/421.111.2-Stopped-single-end-blown-flutes/"/>
+   </purl>
+   <purl id="hs/255/421.111.21-Stopped-single-end-blown-flutes-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/255/421.111.21-Stopped-single-end-blown-flutes-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/256/421.111.211-Stopped-end-blown-flutes-without-fingerholes-used-in-sets/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/256/421.111.211-Stopped-end-blown-flutes-without-fingerholes-used-in-sets/"/>
+   </purl>
+   <purl id="hs/257/421.111.22-Stopped-single-end-blown-flutes-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/257/421.111.22-Stopped-single-end-blown-flutes-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/6213/421.111.3-Partly-stopped-single-end-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6213/421.111.3-Partly-stopped-single-end-blown-flutes/"/>
+   </purl>
+   <purl id="hs/6214/421.111.31-Partly-stopped-single-end-blown-flutes-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6214/421.111.31-Partly-stopped-single-end-blown-flutes-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/6215/421.111.32-Partly-stopped-single-end-blown-flutes-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6215/421.111.32-Partly-stopped-single-end-blown-flutes-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/258/421.112-Sets-of-end-blown-flutes-or-panpipes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/258/421.112-Sets-of-end-blown-flutes-or-panpipes/"/>
+   </purl>
+   <purl id="hs/259/421.112.1-Open-panpipes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/259/421.112.1-Open-panpipes/"/>
+   </purl>
+   <purl id="hs/260/421.112.11-Open-(raft)-panpipes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/260/421.112.11-Open-(raft)-panpipes/"/>
+   </purl>
+   <purl id="hs/261/421.112.12-Open-bundle-(pan-)-pipes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/261/421.112.12-Open-bundle-(pan-)-pipes/"/>
+   </purl>
+   <purl id="hs/262/421.112.2-Stopped-panpipes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/262/421.112.2-Stopped-panpipes/"/>
+   </purl>
+   <purl id="hs/263/421.112.3-Mixed-open-and-stopped-panpipes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/263/421.112.3-Mixed-open-and-stopped-panpipes/"/>
+   </purl>
+   <purl id="hs/264/421.12-Side-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/264/421.12-Side-blown-flutes/"/>
+   </purl>
+   <purl id="hs/265/421.121-(Single)-side-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/265/421.121-(Single)-side-blown-flutes/"/>
+   </purl>
+   <purl id="hs/266/421.121.1-Open-side-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/266/421.121.1-Open-side-blown-flutes/"/>
+   </purl>
+   <purl id="hs/267/421.121.11-Open-side-blown-flutes-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/267/421.121.11-Open-side-blown-flutes-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/268/421.121.12-Open-side-blown-flutes-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/268/421.121.12-Open-side-blown-flutes-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/269/421.121.2-Partly-stopped-side-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/269/421.121.2-Partly-stopped-side-blown-flutes/"/>
+   </purl>
+   <purl id="hs/270/421.121.3-Stopped-side-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/270/421.121.3-Stopped-side-blown-flutes/"/>
+   </purl>
+   <purl id="hs/271/421.121.31-Stopped-side-blown-flutes-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/271/421.121.31-Stopped-side-blown-flutes-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/272/421.121.311-Stopped-side-blown-flutes-without-fingerholes-with-fixed-stopped-lower-end/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/272/421.121.311-Stopped-side-blown-flutes-without-fingerholes-with-fixed-stopped-lower-end/"/>
+   </purl>
+   <purl id="hs/273/421.121.312-Stopped-side-blown-flutes-without-fingerholes-adjustable-stopped-lower-end/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/273/421.121.312-Stopped-side-blown-flutes-without-fingerholes-adjustable-stopped-lower-end/"/>
+   </purl>
+   <purl id="hs/274/421.121.32-Stopped-side-blown-flutes-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/274/421.121.32-Stopped-side-blown-flutes-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/275/421.122-Sets-of-side-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/275/421.122-Sets-of-side-blown-flutes/"/>
+   </purl>
+   <purl id="hs/276/421.122.1-Sets-of-open-side-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/276/421.122.1-Sets-of-open-side-blown-flutes/"/>
+   </purl>
+   <purl id="hs/277/421.122.2-Sets-of-stopped-side-blown-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/277/421.122.2-Sets-of-stopped-side-blown-flutes/"/>
+   </purl>
+   <purl id="hs/278/421.13-Vessel-flutes-(without-distinct-beak)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/278/421.13-Vessel-flutes-(without-distinct-beak)/"/>
+   </purl>
+   <purl id="hs/279/421.14-Notch-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/279/421.14-Notch-flutes/"/>
+   </purl>
+   <purl id="hs/5627/421.141-(Single)-notch-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5627/421.141-(Single)-notch-flutes/"/>
+   </purl>
+   <purl id="hs/5628/421.141.1-Open-single-notch-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5628/421.141.1-Open-single-notch-flutes/"/>
+   </purl>
+   <purl id="hs/5629/421.141.11-Open-single-notch-flutes-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5629/421.141.11-Open-single-notch-flutes-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/5630/421.141.12-Open-single-notch-flutes-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5630/421.141.12-Open-single-notch-flutes-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/5631/421.141.2-Stopped-single-notch-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5631/421.141.2-Stopped-single-notch-flutes/"/>
+   </purl>
+   <purl id="hs/5632/421.141.21-Stopped-single-notch-flutes-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5632/421.141.21-Stopped-single-notch-flutes-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/5633/421.141.211-Stopped-notch-flutes-without-fingerholes-used-in-sets/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5633/421.141.211-Stopped-notch-flutes-without-fingerholes-used-in-sets/"/>
+   </purl>
+   <purl id="hs/5634/421.141.22-Stopped-single-notch-flutes-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5634/421.141.22-Stopped-single-notch-flutes-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/5635/421.142-Sets-of-notch-flutes-or-panpipes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5635/421.142-Sets-of-notch-flutes-or-panpipes/"/>
+   </purl>
+   <purl id="hs/5636/421.142.1-Open-sets-of-notch-flutes-or-panpipes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5636/421.142.1-Open-sets-of-notch-flutes-or-panpipes/"/>
+   </purl>
+   <purl id="hs/5637/421.142.2-Stopped-sets-of-notch-flutes-or-panpipes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/5637/421.142.2-Stopped-sets-of-notch-flutes-or-panpipes/"/>
+   </purl>
+   <purl id="hs/280/421.2-Flutes-with-duct-or-duct-flutes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/280/421.2-Flutes-with-duct-or-duct-flutes/"/>
+   </purl>
+   <purl id="hs/281/421.21-Flutes-with-external-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/281/421.21-Flutes-with-external-duct/"/>
+   </purl>
+   <purl id="hs/282/421.211-(Single)-flutes-with-external-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/282/421.211-(Single)-flutes-with-external-duct/"/>
+   </purl>
+   <purl id="hs/283/421.211.1-Open-flutes-with-external-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/283/421.211.1-Open-flutes-with-external-duct/"/>
+   </purl>
+   <purl id="hs/284/421.211.11-Open-flutes-with-external-duct-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/284/421.211.11-Open-flutes-with-external-duct-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/285/421.211.12-Open-flutes-with-external-duct-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/285/421.211.12-Open-flutes-with-external-duct-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/286/421.211.2-Partly-stopped-flutes-with-external-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/286/421.211.2-Partly-stopped-flutes-with-external-duct/"/>
+   </purl>
+   <purl id="hs/287/421.211.3-Stopped-flutes-with-external-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/287/421.211.3-Stopped-flutes-with-external-duct/"/>
+   </purl>
+   <purl id="hs/288/421.212-Sets-of-flutes-with-external-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/288/421.212-Sets-of-flutes-with-external-duct/"/>
+   </purl>
+   <purl id="hs/289/421.22-Flutes-with-internal-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/289/421.22-Flutes-with-internal-duct/"/>
+   </purl>
+   <purl id="hs/290/421.221-(Single)-flutes-with-internal-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/290/421.221-(Single)-flutes-with-internal-duct/"/>
+   </purl>
+   <purl id="hs/291/421.221.1-Open-flutes-with-internal-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/291/421.221.1-Open-flutes-with-internal-duct/"/>
+   </purl>
+   <purl id="hs/292/421.221.11-Open-flutes-with-internal-duct-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/292/421.221.11-Open-flutes-with-internal-duct-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/293/421.221.12-Open-flutes-with-internal-duct-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/293/421.221.12-Open-flutes-with-internal-duct-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/294/421.221.2-Partly-stopped-flutes-with-internal-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/294/421.221.2-Partly-stopped-flutes-with-internal-duct/"/>
+   </purl>
+   <purl id="hs/295/421.221.3-Stopped-flutes-with-internal-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/295/421.221.3-Stopped-flutes-with-internal-duct/"/>
+   </purl>
+   <purl id="hs/296/421.221.31-Stopped-flutes-with-internal-duct-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/296/421.221.31-Stopped-flutes-with-internal-duct-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/297/421.221.311-Stopped-flutes-with-internal-duct-without-fingerholes-with-fixed-stopped-lower-end/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/297/421.221.311-Stopped-flutes-with-internal-duct-without-fingerholes-with-fixed-stopped-lower-end/"/>
+   </purl>
+   <purl id="hs/298/421.221.312-Stopped-flutes-with-internal-duct-without-fingerholes-with-adjustable-stopped-lower-end/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/298/421.221.312-Stopped-flutes-with-internal-duct-without-fingerholes-with-adjustable-stopped-lower-end/"/>
+   </purl>
+   <purl id="hs/299/421.221.32-Stopped-flutes-with-internal-duct-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/299/421.221.32-Stopped-flutes-with-internal-duct-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/300/421.221.4-Vessel-flutes-with-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/300/421.221.4-Vessel-flutes-with-duct/"/>
+   </purl>
+   <purl id="hs/301/421.221.41-Vessel-flutes-with-duct-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/301/421.221.41-Vessel-flutes-with-duct-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/302/421.221.42-Vessel-flutes-with-duct-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/302/421.221.42-Vessel-flutes-with-duct-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/303/421.221.421-Vessel-flutes-with-duct-with-single-fingerhole/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/303/421.221.421-Vessel-flutes-with-duct-with-single-fingerhole/"/>
+   </purl>
+   <purl id="hs/304/421.221.422-Vessel-flutes-with-duct-with-two-or-more-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/304/421.221.422-Vessel-flutes-with-duct-with-two-or-more-fingerholes/"/>
+   </purl>
+   <purl id="hs/305/421.222-Sets-of-flutes-with-internal-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/305/421.222-Sets-of-flutes-with-internal-duct/"/>
+   </purl>
+   <purl id="hs/306/421.222.1-Sets-of-open-flutes-with-internal-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/306/421.222.1-Sets-of-open-flutes-with-internal-duct/"/>
+   </purl>
+   <purl id="hs/307/421.222.11-Sets-of-open-flutes-with-internal-duct-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/307/421.222.11-Sets-of-open-flutes-with-internal-duct-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/6225//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6225//"/>
+   </purl>
+   <purl id="hs/6488//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6488//"/>
+   </purl>
+   <purl id="hs/6489/421.222.11-9-Mechanically-driven-sets-of-open-flutes-with-internal-duct-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6489/421.222.11-9-Mechanically-driven-sets-of-open-flutes-with-internal-duct-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/308/421.222.12-Sets-of-open-flutes-with-internal-duct-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/308/421.222.12-Sets-of-open-flutes-with-internal-duct-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/309/421.222.2-Sets-of-partly-stopped-flutes-with-internal-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/309/421.222.2-Sets-of-partly-stopped-flutes-with-internal-duct/"/>
+   </purl>
+   <purl id="hs/310/421.222.3-Sets-of-stopped-flutes-with-internal-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/310/421.222.3-Sets-of-stopped-flutes-with-internal-duct/"/>
+   </purl>
+   <purl id="hs/6216/421.222.4-Sets-of-dissimilar-flutes-with-internal-duct/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6216/421.222.4-Sets-of-dissimilar-flutes-with-internal-duct/"/>
+   </purl>
+   <purl id="hs/311/421.23-Flutes-with-duct-formed-by-an-internal-baffle-with-an-external-cover/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/311/421.23-Flutes-with-duct-formed-by-an-internal-baffle-with-an-external-cover/"/>
+   </purl>
+   <purl id="hs/312/422-Reedpipes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/312/422-Reedpipes/"/>
+   </purl>
+   <purl id="hs/313/422.1-Reedpipes-with-double-(or-quadruple)-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/313/422.1-Reedpipes-with-double-(or-quadruple)-reeds/"/>
+   </purl>
+   <purl id="hs/314/422.11-Single-reedpipes-with-double-(or-quadruple)-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/314/422.11-Single-reedpipes-with-double-(or-quadruple)-reeds/"/>
+   </purl>
+   <purl id="hs/6490/422.11.2-5-(Single)-wind-cap-oboes-with-cylindrical-bore-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6490/422.11.2-5-(Single)-wind-cap-oboes-with-cylindrical-bore-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/6491/422.11.2-62-(Single)-oboes-with-cylindrical-bore-with-fingerholes-with-flexible-air-reservoir/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6491/422.11.2-62-(Single)-oboes-with-cylindrical-bore-with-fingerholes-with-flexible-air-reservoir/"/>
+   </purl>
+   <purl id="hs/315/422.111-(Single)-oboes-with-cylindrical-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/315/422.111-(Single)-oboes-with-cylindrical-bore/"/>
+   </purl>
+   <purl id="hs/316/422.111.1-(Single)-oboes-with-cylindrical-bore-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/316/422.111.1-(Single)-oboes-with-cylindrical-bore-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/317/422.111.2-(Single)-oboes-with-cylindrical-bore-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/317/422.111.2-(Single)-oboes-with-cylindrical-bore-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/6418//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6418//"/>
+   </purl>
+   <purl id="hs/6410//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6410//"/>
+   </purl>
+   <purl id="hs/6411//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6411//"/>
+   </purl>
+   <purl id="hs/6229//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6229//"/>
+   </purl>
+   <purl id="hs/6230//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6230//"/>
+   </purl>
+   <purl id="hs/318/422.112-(Single)-oboes-with-conical-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/318/422.112-(Single)-oboes-with-conical-bore/"/>
+   </purl>
+   <purl id="hs/6412//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6412//"/>
+   </purl>
+   <purl id="hs/6413//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6413//"/>
+   </purl>
+   <purl id="hs/6231//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6231//"/>
+   </purl>
+   <purl id="hs/6492//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6492//"/>
+   </purl>
+   <purl id="hs/6233//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6233//"/>
+   </purl>
+   <purl id="hs/6414//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6414//"/>
+   </purl>
+   <purl id="hs/6232//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6232//"/>
+   </purl>
+   <purl id="hs/6415//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6415//"/>
+   </purl>
+   <purl id="hs/319/422.12-Sets-of-oboes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/319/422.12-Sets-of-oboes/"/>
+   </purl>
+   <purl id="hs/320/422.121-Sets-of-oboes-with-cylindrical-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/320/422.121-Sets-of-oboes-with-cylindrical-bore/"/>
+   </purl>
+   <purl id="hs/6234//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6234//"/>
+   </purl>
+   <purl id="hs/6493//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6493//"/>
+   </purl>
+   <purl id="hs/321/422.122-Sets-of-oboes-with-conical-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/321/422.122-Sets-of-oboes-with-conical-bore/"/>
+   </purl>
+   <purl id="hs/6235//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6235//"/>
+   </purl>
+   <purl id="hs/6416//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6416//"/>
+   </purl>
+   <purl id="hs/6236//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6236//"/>
+   </purl>
+   <purl id="hs/6417//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6417//"/>
+   </purl>
+   <purl id="hs/6494//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6494//"/>
+   </purl>
+   <purl id="hs/6495//">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6495//"/>
+   </purl>
+   <purl id="hs/322/422.2-Reedpipes-with-single-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/322/422.2-Reedpipes-with-single-reeds/"/>
+   </purl>
+   <purl id="hs/323/422.21-Individual-reedpipes-with-single-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/323/422.21-Individual-reedpipes-with-single-reeds/"/>
+   </purl>
+   <purl id="hs/324/422.211-Clarinets-with-cylindrical-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/324/422.211-Clarinets-with-cylindrical-bore/"/>
+   </purl>
+   <purl id="hs/325/422.211.1-(Single)-clarinets-with-cylindrical-bore-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/325/422.211.1-(Single)-clarinets-with-cylindrical-bore-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/326/422.211.2-(Single)-clarinets-with-cylindrical-bore-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/326/422.211.2-(Single)-clarinets-with-cylindrical-bore-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/6496/422.211.2-5-(Single)-wind-cap-clarinets-with-cylindrical-bore-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6496/422.211.2-5-(Single)-wind-cap-clarinets-with-cylindrical-bore-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/327/422.212-(Single)-clarinets-with-conical-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/327/422.212-(Single)-clarinets-with-conical-bore/"/>
+   </purl>
+   <purl id="hs/328/422.22-Sets-of-reedpipes-with-single-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/328/422.22-Sets-of-reedpipes-with-single-reeds/"/>
+   </purl>
+   <purl id="hs/6497/422.22-5-Sets-of-wind-cap-reedpipes-with-single-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6497/422.22-5-Sets-of-wind-cap-reedpipes-with-single-reeds/"/>
+   </purl>
+   <purl id="hs/6519/422.22-62-Sets-of-clarinets-with-flexible-air-reservoir/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6519/422.22-62-Sets-of-clarinets-with-flexible-air-reservoir/"/>
+   </purl>
+   <purl id="hs/329/422.3-Reedpipes-with-free-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/329/422.3-Reedpipes-with-free-reeds/"/>
+   </purl>
+   <purl id="hs/330/422.31-Single-reedpipes-with-free-reed/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/330/422.31-Single-reedpipes-with-free-reed/"/>
+   </purl>
+   <purl id="hs/331/422.32-Double-reedpipes-with-free-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/331/422.32-Double-reedpipes-with-free-reeds/"/>
+   </purl>
+   <purl id="hs/332/422.33-Horns-with-free-reed/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/332/422.33-Horns-with-free-reed/"/>
+   </purl>
+   <purl id="hs/6217/422.4-Dilating-reeds/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6217/422.4-Dilating-reeds/"/>
+   </purl>
+   <purl id="hs/6218/422.41-Dilating-reeds-without-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6218/422.41-Dilating-reeds-without-fingerholes/"/>
+   </purl>
+   <purl id="hs/6219/422.42-Dilating-reeds-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6219/422.42-Dilating-reeds-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/333/423-Labrosones-(or-lip-reed-instruments)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/333/423-Labrosones-(or-lip-reed-instruments)/"/>
+   </purl>
+   <purl id="hs/334/423.1-Natural-labrosones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/334/423.1-Natural-labrosones/"/>
+   </purl>
+   <purl id="hs/335/423.11-Conches/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/335/423.11-Conches/"/>
+   </purl>
+   <purl id="hs/336/423.111-End-blown-conches/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/336/423.111-End-blown-conches/"/>
+   </purl>
+   <purl id="hs/337/423.111.1-End-blown-conches-without-mouthpiece/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/337/423.111.1-End-blown-conches-without-mouthpiece/"/>
+   </purl>
+   <purl id="hs/338/423.111.2-End-blown-conches-with-mouthpiece/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/338/423.111.2-End-blown-conches-with-mouthpiece/"/>
+   </purl>
+   <purl id="hs/339/423.112-Side-blown-conches/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/339/423.112-Side-blown-conches/"/>
+   </purl>
+   <purl id="hs/340/423.12-Tubular-labrosones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/340/423.12-Tubular-labrosones/"/>
+   </purl>
+   <purl id="hs/341/423.121-End-blown-labrosones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/341/423.121-End-blown-labrosones/"/>
+   </purl>
+   <purl id="hs/342/423.121.1-End-blown-straight-labrosones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/342/423.121.1-End-blown-straight-labrosones/"/>
+   </purl>
+   <purl id="hs/343/423.121.11-End-blown-straight-labrosones-without-mouthpiece/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/343/423.121.11-End-blown-straight-labrosones-without-mouthpiece/"/>
+   </purl>
+   <purl id="hs/344/423.121.12-End-blown-straight-labrosones-with-mouthpiece/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/344/423.121.12-End-blown-straight-labrosones-with-mouthpiece/"/>
+   </purl>
+   <purl id="hs/6498/423.121.12-4-End-blown-straight-labrosones-with-mouthpiece-and-with-crooks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6498/423.121.12-4-End-blown-straight-labrosones-with-mouthpiece-and-with-crooks/"/>
+   </purl>
+   <purl id="hs/345/423.121.2-End-blown-labrosones-with-curved-or-folded-tubes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/345/423.121.2-End-blown-labrosones-with-curved-or-folded-tubes/"/>
+   </purl>
+   <purl id="hs/346/423.121.21-End-blown-labrosones-with-curved-or-folded-tubes-without-mouthpiece/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/346/423.121.21-End-blown-labrosones-with-curved-or-folded-tubes-without-mouthpiece/"/>
+   </purl>
+   <purl id="hs/347/423.121.22-End-blown-labrosones-with-curved-or-folded-tubes-with-mouthpiece/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/347/423.121.22-End-blown-labrosones-with-curved-or-folded-tubes-with-mouthpiece/"/>
+   </purl>
+   <purl id="hs/348/423.122-Side-blown-labrosones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/348/423.122-Side-blown-labrosones/"/>
+   </purl>
+   <purl id="hs/6220/423.122.1-Side-blown-straight-labrosones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6220/423.122.1-Side-blown-straight-labrosones/"/>
+   </purl>
+   <purl id="hs/6221/423.122.2-Side-blown-curved-labrosones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6221/423.122.2-Side-blown-curved-labrosones/"/>
+   </purl>
+   <purl id="hs/351/423.2-Chromatic-labrosones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/351/423.2-Chromatic-labrosones/"/>
+   </purl>
+   <purl id="hs/352/423.21-Labrosones-with-fingerholes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/352/423.21-Labrosones-with-fingerholes/"/>
+   </purl>
+   <purl id="hs/353/423.211-Labrosones-with-fingerholes-with-cylinder-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/353/423.211-Labrosones-with-fingerholes-with-cylinder-bore/"/>
+   </purl>
+   <purl id="hs/354/423.212-Labrosones-with-fingerholes-with-(narrow)-conical-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/354/423.212-Labrosones-with-fingerholes-with-(narrow)-conical-bore/"/>
+   </purl>
+   <purl id="hs/355/423.213-Labrosones-with-fingerholes-with-(wider)-conical-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/355/423.213-Labrosones-with-fingerholes-with-(wider)-conical-bore/"/>
+   </purl>
+   <purl id="hs/6500/423.213-71-Labrosones-with-fingerholes-and-with-keys-with-(wider)-conical-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6500/423.213-71-Labrosones-with-fingerholes-and-with-keys-with-(wider)-conical-bore/"/>
+   </purl>
+   <purl id="hs/356/423.22-Labrosones-with-slides/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/356/423.22-Labrosones-with-slides/"/>
+   </purl>
+   <purl id="hs/357/423.23-Labrosones-with-valves/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/357/423.23-Labrosones-with-valves/"/>
+   </purl>
+   <purl id="hs/358/423.231-Valve-bugles/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/358/423.231-Valve-bugles/"/>
+   </purl>
+   <purl id="hs/2163/423.231.1-Valve-bugles-with-narrow-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2163/423.231.1-Valve-bugles-with-narrow-bore/"/>
+   </purl>
+   <purl id="hs/2164/423.231.11-Valve-bugles-with-narrow-bore-with-short-air-column-(less-than-2-m)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2164/423.231.11-Valve-bugles-with-narrow-bore-with-short-air-column-(less-than-2-m)/"/>
+   </purl>
+   <purl id="hs/2165/423.231.12-Valve-bugles-with-narrow-bore-with-long-air-column-(more-than-2-m)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2165/423.231.12-Valve-bugles-with-narrow-bore-with-long-air-column-(more-than-2-m)/"/>
+   </purl>
+   <purl id="hs/2166/423.231.2-Valve-bugles-with-wide-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2166/423.231.2-Valve-bugles-with-wide-bore/"/>
+   </purl>
+   <purl id="hs/6501/423.231.2-4-Valve-bugles-with-wide-bore-and-with-crooks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6501/423.231.2-4-Valve-bugles-with-wide-bore-and-with-crooks/"/>
+   </purl>
+   <purl id="hs/359/423.232-Valve-horns/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/359/423.232-Valve-horns/"/>
+   </purl>
+   <purl id="hs/2167/423.232.1-Valve-horns-with-narrow-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2167/423.232.1-Valve-horns-with-narrow-bore/"/>
+   </purl>
+   <purl id="hs/2169/423.232.11-Valve-horns-with-narrow-bore-with-short-air-column-(less-than-2-m)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2169/423.232.11-Valve-horns-with-narrow-bore-with-short-air-column-(less-than-2-m)/"/>
+   </purl>
+   <purl id="hs/6502/423.232.11-4-Valve-horns-with-narrow-bore-with-short-air-column-(less-than-2-m)-and-with-crooks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6502/423.232.11-4-Valve-horns-with-narrow-bore-with-short-air-column-(less-than-2-m)-and-with-crooks/"/>
+   </purl>
+   <purl id="hs/2170/423.232.12-Valve-horns-with-narrow-bore-with-long-air-column-(more-than-2-m)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2170/423.232.12-Valve-horns-with-narrow-bore-with-long-air-column-(more-than-2-m)/"/>
+   </purl>
+   <purl id="hs/6503/423.232.12-4-Valve-horns-with-narrow-bore-with-long-air-column-(more-than-2-m)-and-with-crooks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6503/423.232.12-4-Valve-horns-with-narrow-bore-with-long-air-column-(more-than-2-m)-and-with-crooks/"/>
+   </purl>
+   <purl id="hs/2168/423.232.2-Valve-horns-with-wider-bore/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2168/423.232.2-Valve-horns-with-wider-bore/"/>
+   </purl>
+   <purl id="hs/6504/423.232.2-4-Valve-horns-with-wider-bore-and-with-crooks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6504/423.232.2-4-Valve-horns-with-wider-bore-and-with-crooks/"/>
+   </purl>
+   <purl id="hs/360/423.233-Valve-trumpets/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/360/423.233-Valve-trumpets/"/>
+   </purl>
+   <purl id="hs/2160/423.233.1-Valve-trumpets-with-short-air-column-(less-than-2-m)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2160/423.233.1-Valve-trumpets-with-short-air-column-(less-than-2-m)/"/>
+   </purl>
+   <purl id="hs/6505/423.233.1-4-Valve-trumpets-with-short-air-column-(less-than-2-m)-and-with-crooks/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6505/423.233.1-4-Valve-trumpets-with-short-air-column-(less-than-2-m)-and-with-crooks/"/>
+   </purl>
+   <purl id="hs/2161/423.233.2-Valve-trumpets-with-long-air-column-(more-than-2-m)/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/2161/423.233.2-Valve-trumpets-with-long-air-column-(more-than-2-m)/"/>
+   </purl>
+   <purl id="hs/6222/424-Membranopipes/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6222/424-Membranopipes/"/>
+   </purl>
+   <purl id="hs/6154/5-Electrophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6154/5-Electrophones/"/>
+   </purl>
+   <purl id="hs/6155/51-Electro-acoustic-instruments-and-devices/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6155/51-Electro-acoustic-instruments-and-devices/"/>
+   </purl>
+   <purl id="hs/6156/511-Electro-acoustic-idiophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6156/511-Electro-acoustic-idiophones/"/>
+   </purl>
+   <purl id="hs/6157/512-Electro-acoustic-membranophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6157/512-Electro-acoustic-membranophones/"/>
+   </purl>
+   <purl id="hs/6158/513-Electro-acoustic-chordophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6158/513-Electro-acoustic-chordophones/"/>
+   </purl>
+   <purl id="hs/6159/514-Electro-acoustic-aerophones/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6159/514-Electro-acoustic-aerophones/"/>
+   </purl>
+   <purl id="hs/6160/515-Transducers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6160/515-Transducers/"/>
+   </purl>
+   <purl id="hs/6161/52-Electromechanical-instruments-and-devices/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6161/52-Electromechanical-instruments-and-devices/"/>
+   </purl>
+   <purl id="hs/6162/521-Tone-wheel-instruments/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6162/521-Tone-wheel-instruments/"/>
+   </purl>
+   <purl id="hs/6163/522-Photo-electric-electromechanical-instruments/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6163/522-Photo-electric-electromechanical-instruments/"/>
+   </purl>
+   <purl id="hs/6164/523-Record/playback-devices/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6164/523-Record/playback-devices/"/>
+   </purl>
+   <purl id="hs/6165/524-Electromechanical-samplers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6165/524-Electromechanical-samplers/"/>
+   </purl>
+   <purl id="hs/6166/525-Electromechanical-sound-processing-devices/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6166/525-Electromechanical-sound-processing-devices/"/>
+   </purl>
+   <purl id="hs/6167/53-Analogue-electronic-instruments-modules-and-components/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6167/53-Analogue-electronic-instruments-modules-and-components/"/>
+   </purl>
+   <purl id="hs/6168/531-Analogue-synthesizers-and-other-electronic-instruments-with-thermionic-valve-(vacuum-tube)-or-solid-state-circuitry-(transistor-and/or-analogue-integrated-circuitry)-generating-and/or-processing-electric-sound-signals/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6168/531-Analogue-synthesizers-and-other-electronic-instruments-with-thermionic-valve-(vacuum-tube)-or-solid-state-circuitry-(transistor-and/or-analogue-integrated-circuitry)-generating-and/or-processing-electric-sound-signals/"/>
+   </purl>
+   <purl id="hs/6169/531.1-Analogue-synthesizers-and-other-electronic-instruments-with-thermionic-valve-(vacuum-tube)-based-devices-generating-and/or-processing-electric-sound-signals/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6169/531.1-Analogue-synthesizers-and-other-electronic-instruments-with-thermionic-valve-(vacuum-tube)-based-devices-generating-and/or-processing-electric-sound-signals/"/>
+   </purl>
+   <purl id="hs/6170/531.2-Analogue-synthesizers-and-other-electronic-instruments-with-solid-state-circuitry-(transistor-and/or-analogue-integrated-circuitry)-generating-and/or-processing-electric-sound-signals/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6170/531.2-Analogue-synthesizers-and-other-electronic-instruments-with-solid-state-circuitry-(transistor-and/or-analogue-integrated-circuitry)-generating-and/or-processing-electric-sound-signals/"/>
+   </purl>
+   <purl id="hs/6171/531.21-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-additive-synthesis/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6171/531.21-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-additive-synthesis/"/>
+   </purl>
+   <purl id="hs/6172/531.22-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-subtractive-synthesis/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6172/531.22-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-subtractive-synthesis/"/>
+   </purl>
+   <purl id="hs/6173/531.221-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-subtractive-synthesis---modular-synthesizers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6173/531.221-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-subtractive-synthesis---modular-synthesizers/"/>
+   </purl>
+   <purl id="hs/6174/531.222-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-subtractive-synthesis---pre-set-synthesizers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6174/531.222-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-subtractive-synthesis---pre-set-synthesizers/"/>
+   </purl>
+   <purl id="hs/6175/531.222.1-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-subtractive-synthesis---pre-set-monophnic-synthesizers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6175/531.222.1-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-subtractive-synthesis---pre-set-monophnic-synthesizers/"/>
+   </purl>
+   <purl id="hs/6176/531.222.2-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-subtractive-synthesis---pre-set-partially-or-fully-polyphonic-synthesizers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6176/531.222.2-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-subtractive-synthesis---pre-set-partially-or-fully-polyphonic-synthesizers/"/>
+   </purl>
+   <purl id="hs/6177/531.23-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-hybrid-subtractive-and-additive-synthesis/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6177/531.23-Analogue-synthesizers-with-solid-state-circuitry-based-devices-generating-and-processing-electric-sound-signals-using-hybrid-subtractive-and-additive-synthesis/"/>
+   </purl>
+   <purl id="hs/6178/532-Voltage-control-sources/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6178/532-Voltage-control-sources/"/>
+   </purl>
+   <purl id="hs/6179/532.1-Voltage-control-sources---control-voltage-sequence-generators/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6179/532.1-Voltage-control-sources---control-voltage-sequence-generators/"/>
+   </purl>
+   <purl id="hs/6180/532.2-Voltage-control-sources--controleers-and-interfaces/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6180/532.2-Voltage-control-sources--controleers-and-interfaces/"/>
+   </purl>
+   <purl id="hs/6181/533-Other-analogue-modules-or-configurations/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6181/533-Other-analogue-modules-or-configurations/"/>
+   </purl>
+   <purl id="hs/6182/533.1-Analogue-modules/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6182/533.1-Analogue-modules/"/>
+   </purl>
+   <purl id="hs/6183/533.11-Analogue-modules:-audio-signal-generators/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6183/533.11-Analogue-modules:-audio-signal-generators/"/>
+   </purl>
+   <purl id="hs/6184/533.12-Analogue-modules:-signal-modifiers-or-processors/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6184/533.12-Analogue-modules:-signal-modifiers-or-processors/"/>
+   </purl>
+   <purl id="hs/6185/533.2-Analogue-configurations/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6185/533.2-Analogue-configurations/"/>
+   </purl>
+   <purl id="hs/6186/533.3-Modules-communicating-between-devices/signal-convertors-other-than-transducers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6186/533.3-Modules-communicating-between-devices/signal-convertors-other-than-transducers/"/>
+   </purl>
+   <purl id="hs/6187/54-Digital-instruments-modules-and-components/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6187/54-Digital-instruments-modules-and-components/"/>
+   </purl>
+   <purl id="hs/6188/541-Digital-synthesizers-with-fixed-keyboard-controllers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6188/541-Digital-synthesizers-with-fixed-keyboard-controllers/"/>
+   </purl>
+   <purl id="hs/6189/541.1-Digital-synthesizers-using-frequency-modulation/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6189/541.1-Digital-synthesizers-using-frequency-modulation/"/>
+   </purl>
+   <purl id="hs/6761/541.11-Digital-synthesizers-using-frequency-modulation-synthesis-without-fixed-keyboard-controllers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6761/541.11-Digital-synthesizers-using-frequency-modulation-synthesis-without-fixed-keyboard-controllers/"/>
+   </purl>
+   <purl id="hs/6762/541.12-Digital-synthesizers-using-frequency-modulation-synthesis-with-fixed-keyboard-controllers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6762/541.12-Digital-synthesizers-using-frequency-modulation-synthesis-with-fixed-keyboard-controllers/"/>
+   </purl>
+   <purl id="hs/6190/541.2-Digital-synthesizers-using-additive-synthesis/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6190/541.2-Digital-synthesizers-using-additive-synthesis/"/>
+   </purl>
+   <purl id="hs/6763/541.21-Digital-synthesizers-using-additive-synthesis-without-fixed-keyboard-controllers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6763/541.21-Digital-synthesizers-using-additive-synthesis-without-fixed-keyboard-controllers/"/>
+   </purl>
+   <purl id="hs/6764/541.22-Digital-synthesizers-using-additive-synthesis-with-fixed-keyboard-controllers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6764/541.22-Digital-synthesizers-using-additive-synthesis-with-fixed-keyboard-controllers/"/>
+   </purl>
+   <purl id="hs/6191/541.3-Digital-synthesizers-using-phase-distortion-techniques/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6191/541.3-Digital-synthesizers-using-phase-distortion-techniques/"/>
+   </purl>
+   <purl id="hs/6765/541.31-Digital-synthesizers-using-phase-distortion-techniques-without-fixed-keyboard-controllers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6765/541.31-Digital-synthesizers-using-phase-distortion-techniques-without-fixed-keyboard-controllers/"/>
+   </purl>
+   <purl id="hs/6766/541.32-Digital-synthesizers-using-phase-distortion-techniques-with-fixed-keyboard-controllers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6766/541.32-Digital-synthesizers-using-phase-distortion-techniques-with-fixed-keyboard-controllers/"/>
+   </purl>
+   <purl id="hs/6192/541.4-Digital-synthesizers-using-physical-modelling-techniques/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6192/541.4-Digital-synthesizers-using-physical-modelling-techniques/"/>
+   </purl>
+   <purl id="hs/6767/541.41-Digital-synthesizers-using-physical-modelling-techniques-without-fixed-keyboard-controllers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6767/541.41-Digital-synthesizers-using-physical-modelling-techniques-without-fixed-keyboard-controllers/"/>
+   </purl>
+   <purl id="hs/6768/541.42-Digital-synthesizers-using-physical-modelling-techniques-with-fixed-keyboard-controllers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6768/541.42-Digital-synthesizers-using-physical-modelling-techniques-with-fixed-keyboard-controllers/"/>
+   </purl>
+   <purl id="hs/6193/542-Digital-control-sources-and-interfaces/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6193/542-Digital-control-sources-and-interfaces/"/>
+   </purl>
+   <purl id="hs/6194/543-Digital-signal-mixing-modifying-reproducing-and-processing-devices/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6194/543-Digital-signal-mixing-modifying-reproducing-and-processing-devices/"/>
+   </purl>
+   <purl id="hs/6195/544-Digital-samplers-and-sampling-synthesizers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6195/544-Digital-samplers-and-sampling-synthesizers/"/>
+   </purl>
+   <purl id="hs/6196/545-Digital-record/playback-devices/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6196/545-Digital-record/playback-devices/"/>
+   </purl>
+   <purl id="hs/6197/546-Other-digital-modules-components-and-configurations/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6197/546-Other-digital-modules-components-and-configurations/"/>
+   </purl>
+   <purl id="hs/6198/547-Digital-modules-communicating-between-devices/signal-convertors-other-than-transducers/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6198/547-Digital-modules-communicating-between-devices/signal-convertors-other-than-transducers/"/>
+   </purl>
+   <purl id="hs/6199/55-Hybrid-analogue/digital-configurations/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6199/55-Hybrid-analogue/digital-configurations/"/>
+   </purl>
+   <purl id="hs/6200/56-Software/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/6200/56-Software/"/>
+   </purl>
+   <purl id="hs/3303/Simbing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="/3303/Simbing/"/>
+   </purl>
+   <purl id="hs//Simbin/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="//Simbin/"/>
+   </purl>
+   <purl id="hs//Simbing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="//Simbing/"/>
+   </purl>
+   <purl id="hs//Simbing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="//Simbing/"/>
+   </purl>
+   <purl id="hs//Simbing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="//Simbing/"/>
+   </purl>
+   <purl id="hs//Simbing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="//Simbing/"/>
+   </purl>
+   <purl id="hs//Simbing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="//Simbing/"/>
+   </purl>
+   <purl id="hs//Simbing/">
+      <maintainers>
+         <uid>mdestandau@cite-musique.fr</uid>
+      </maintainers>
+      <target url="//Simbing/"/>
+   </purl>
+</purls>

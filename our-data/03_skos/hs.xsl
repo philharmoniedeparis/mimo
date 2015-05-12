@@ -117,7 +117,13 @@
         
         <!-- definition -->
         <xsl:if test="string(definition)!=''">
-          <skos:definition select="definition"/>
+          <skos:definition>
+            <xsl:if test="normalize-space(language)!=''">
+              <xsl:variable name="language" select="language" />
+              <xsl:attribute name="xml:lang" select="$Languages/i[@key=$language]" />
+            </xsl:if>
+            <xsl:value-of select="definition"/>
+          </skos:definition>
         </xsl:if>
         <!-- /definition -->
 

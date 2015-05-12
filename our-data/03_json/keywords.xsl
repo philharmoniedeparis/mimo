@@ -12,7 +12,7 @@
   <xsl:variable name="InstrumentsBaseUrl" select="'http://www.mimo-db.eu/InstrumentsKeywords'"></xsl:variable>
   <xsl:variable name="RelatedBaseUrl" select="'http://www.mimo-db.eu/HornbostelAndSachs'"></xsl:variable>
   <xsl:variable name="Languages">
-    <i key="0"></i>
+    <i key="0">pivot</i>
     <i key="1">en</i>
     <i key="2">fr</i>
     <i key="3">it</i>
@@ -21,7 +21,6 @@
     <i key="6">sv</i>
     <i key="7">ca</i>
   </xsl:variable>
-  
 
   <xsl:template match="keywords">
     <rdf:RDF
@@ -148,7 +147,7 @@
         
         <!-- definition -->
         <skos:definition>
-          <xsl:if test="(normalize-space(language)!='') and (language!='0')">
+          <xsl:if test="normalize-space(language)!=''">
             <xsl:variable name="language" select="language" />
             <xsl:attribute name="xml:lang" select="$Languages/i[@key=$language]" />
           </xsl:if>
@@ -231,12 +230,10 @@
           <skos:definition  select="explainNote" />
         </xsl:if>
         <!-- /explainNote -->
-  
         
       </skos:Concept>
     </xsl:if>
   </xsl:template>
   <!-- / Concepts -->
-  
   
 </xsl:stylesheet>
