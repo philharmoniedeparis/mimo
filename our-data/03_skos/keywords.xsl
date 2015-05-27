@@ -9,8 +9,8 @@
   
   <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
   
-  <xsl:variable name="InstrumentsBaseUrl" select="'http://www.mimo-db.eu/InstrumentsKeywords'"></xsl:variable>
-  <xsl:variable name="RelatedBaseUrl" select="'http://www.mimo-db.eu/HornbostelAndSachs'"></xsl:variable>
+  <xsl:variable name="InstrumentsBaseUrl" select="'http://data.mimo-db.eu/InstrumentsKeywords'"></xsl:variable>
+  <xsl:variable name="RelatedBaseUrl" select="'http://data.mimo-db.eu/hs'"></xsl:variable>
   <xsl:variable name="Languages">
     <i key="0"></i>
     <i key="1">en</i>
@@ -92,7 +92,7 @@
     <!-- as well as Musical Instruments (LEXICON_2204), which is not a concept -->
     <xsl:if test="(eid/@id) and ( (relation[type='BT']) or (relation[type='NT']) ) and (eid/@id != 'LEXICON_2204')">
       
-      <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
+      <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}/{label/@friendly}">
         
         <!-- relation to the concept scheme --> 
         <xsl:choose>
@@ -203,20 +203,20 @@
         <!-- parent Concepts -->
         <xsl:for-each select="relation[type='BT']">
           <xsl:if test="eid !='LEXICON_00002204'">
-            <skos:broader  rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}" />
+            <skos:broader  rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}/{label/@friendly}" />
           </xsl:if>
         </xsl:for-each>
         <!-- /parent Concepts -->
         
         <!-- children Concepts -->
         <xsl:for-each select="relation[type='NT']">
-          <skos:narrower rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}" />
+          <skos:narrower rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}/{label/@friendly}" />
         </xsl:for-each>
         <!-- /children Concepts -->
         
         <!-- equivalents HornBostel and Sachs -->
         <xsl:for-each select="relation[type='RT']">
-          <skos:exactMatch rdf:resource="{$RelatedBaseUrl}/{eid/@id}" />
+          <skos:exactMatch rdf:resource="{$RelatedBaseUrl}/{eid/@id}/{label/@friendly}" />
         </xsl:for-each>
         <!-- /equivalents HornBostel and Sachs -->
         

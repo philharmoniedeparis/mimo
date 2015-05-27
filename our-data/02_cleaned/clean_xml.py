@@ -47,7 +47,7 @@ class Cleaner:
 		# open cvs file with wikipedia links
 		# in the fututre these links will be stored in the database and be part of the export
 		
-		cr = csv.reader(open("MIMOwikipedia.csv","rU"),  delimiter=b';')
+		cr = csv.reader(open("../01_Idesia/MIMOwikipedia.csv","rU"),  delimiter=b';')
 
 		# transform all wikipedia in dbpedia links
 		pattern = re.compile('en.wikipedia.org/wiki/')

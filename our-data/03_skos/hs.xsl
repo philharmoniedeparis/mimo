@@ -9,8 +9,8 @@
 
   <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
   
-  <xsl:variable name="InstrumentsBaseUrl" select="'http://www.mimo-db.eu/HornbostelAndSachs'"></xsl:variable>
-  <xsl:variable name="RelatedBaseUrl" select="'http://www.mimo-db.eu/InstrumentsKeywords'"></xsl:variable>
+  <xsl:variable name="InstrumentsBaseUrl" select="'http://data.mimo-db.eu/hs'"></xsl:variable>
+  <xsl:variable name="RelatedBaseUrl" select="'http://data.mimo-db.eu/InstrumentsKeywords'"></xsl:variable>
   <xsl:variable name="Languages">
     <i key="0">en</i>
     <i key="1">en</i>
@@ -77,7 +77,7 @@
     
     <!-- leave out LEXICON_00000000 which is not a concept -->
     <xsl:if test="eid != 'LEXICON_00000000'">
-      <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}">
+      <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}/{label/@friendly}">
         
         <!-- relation to the concept scheme --> 
         <xsl:choose>
@@ -130,20 +130,20 @@
         <!-- parent Concepts -->
         <xsl:for-each select="relation[type='BT']">
           <xsl:if test="eid !='LEXICON_00000000'">
-            <skos:broader rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}" />
+            <skos:broader rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}/{label/@friendly}" />
           </xsl:if>
         </xsl:for-each>
         <!-- /parent Concepts -->
         
         <!-- children Concepts -->
         <xsl:for-each select="relation[type='NT']">
-          <skos:narrower rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}" />
+          <skos:narrower rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}/{label/@friendly}" />
         </xsl:for-each>
         <!-- /children Concepts -->
         
         <!-- equivalents MIMO -->
         <xsl:for-each select="relation[type='RT']">
-          <skos:exactMatch rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}" />
+          <skos:exactMatch rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}/{label/@friendly}" />
         </xsl:for-each>
         <!-- /equivalents MIMO -->
         
