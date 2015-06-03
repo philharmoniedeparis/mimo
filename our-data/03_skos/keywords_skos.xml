@@ -22686,27 +22686,6 @@
       <skos:broader rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords/2355/Others"/>
       <skos:exactMatch rdf:resource="http://data.mimo-db.eu/hs/81/133.2-Sets-of-friction-vessels"/>
    </skos:Concept>
-   <skos:Concept rdf:about="http://data.mimo-db.eu/InstrumentsKeywords/2204/Musical-instruments">
-      <skos:inScheme rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords"/>
-      <skos:prefLabel>Musical instruments</skos:prefLabel>
-      <skos:definition/>
-      <skos:prefLabel xml:lang="fr">Instruments de musique</skos:prefLabel>
-      <skos:prefLabel xml:lang="ca">Instruments musicals</skos:prefLabel>
-      <skos:prefLabel xml:lang="en">Musical instruments</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Musikinstrument</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Musikinstrumente</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Muziekinstrumenten</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Strumenti musicali</skos:prefLabel>
-      <skos:narrower rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords/2208/Electronic-instruments"/>
-      <skos:narrower rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords/2205/Elements-of-musical-instruments"/>
-      <skos:narrower rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords/2230/Keyboard-instruments"/>
-      <skos:narrower rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords/4475/Mechanical-instruments"/>
-      <skos:narrower rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords/2347/Mirlitons"/>
-      <skos:narrower rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords/2354/Other-instruments"/>
-      <skos:narrower rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords/2370/Percussion-instruments"/>
-      <skos:narrower rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords/3101/Stringed-instruments"/>
-      <skos:narrower rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords/3730/Wind-instruments"/>
-   </skos:Concept>
    <skos:Concept rdf:about="http://data.mimo-db.eu/InstrumentsKeywords/2368/Musical-saw">
       <skos:inScheme rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords"/>
       <skos:prefLabel>Musical saw</skos:prefLabel>

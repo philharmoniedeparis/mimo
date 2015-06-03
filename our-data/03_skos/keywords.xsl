@@ -90,7 +90,7 @@
     <!-- leave out nodes which have no id attribute (ie translations, which have a referent attribute instead) -->
     <!-- and nodes which have no parent and no children (they are only synonyms) -->
     <!-- as well as Musical Instruments (LEXICON_2204), which is not a concept -->
-    <xsl:if test="(eid/@id) and ( (relation[type='BT']) or (relation[type='NT']) ) and (eid/@id != 'LEXICON_2204')">
+    <xsl:if test="(eid/@id) and ( (relation[type='BT']) or (relation[type='NT']) ) and (eid/@id != '2204')">
       
       <skos:Concept rdf:about="{$InstrumentsBaseUrl}/{eid/@id}/{label/@friendly}">
         
