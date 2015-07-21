@@ -143,7 +143,7 @@
         
         <!-- equivalents MIMO -->
         <xsl:for-each select="relation[type='RT']">
-          <skos:exactMatch rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}/{label/@friendly}" />
+          <skos:exactMatch rdf:resource="{RelatedBaseUrl}/{eid/@id}/{label/@friendly}" />
         </xsl:for-each>
         <!-- /equivalents MIMO -->
         
