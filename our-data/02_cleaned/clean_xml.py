@@ -37,21 +37,21 @@ class Cleaner:
 
 		# remove all Thesaurus nodes (with their content)
 		# same node repeated for each term with no valuable info
-		self.xmlContent = re.sub('<thesaurus>.*?</thesaurus>', '', self.xmlContent)
+		self.xmlContent = re.sub(r'<thesaurus>.*?</thesaurus>', '', self.xmlContent)
 
 		# remove all declarations in keywords tag
-		self.xmlContent = re.sub('<keywords.*?>', '<keywords>', self.xmlContent)
+		self.xmlContent = re.sub(r'<keywords.*?>', '<keywords>', self.xmlContent)
 
+		#remove labels which are not translated 
+		self.xmlContent = re.sub(r'<relation><type>LE</type><label>.*?([\(to be translated\)]).*?</relation>', '', self.xmlContent)
+		self.xmlContent = re.sub(r'<term><eid>LEXICON_([\d]*)_([\d]*)</eid><label>.*?([\(to be translated\)]).*?</term>', '', self.xmlContent)
+		self.xmlContent = re.sub(r'(to be translated)', '', self.xmlContent)
 
 	def readDbpediaLinks(self):
 		# open cvs file with wikipedia links
 		# in the fututre these links will be stored in the database and be part of the export
 		
 		cr = csv.reader(open("../01_Idesia/MIMOwikipedia.csv","rU"),  delimiter=b';')
-
-		# transform all wikipedia in dbpedia links
-		pattern = re.compile('en.wikipedia.org/wiki/')
-		self.xmlContent = pattern.sub('dbpedia.org/resource', self.xmlContent)
 
 		self.exactDbpedia = {};
 		self.closeDbpedia = {};
@@ -63,6 +63,10 @@ class Cleaner:
 				self.exactDbpedia[row[0].decode('utf8')] = row[7].decode('utf8')
 
 
+	def replaceDbpediaLinks(self):
+		# transform all wikipedia in dbpedia links
+		pattern = re.compile('en.wikipedia.org/wiki/')
+		self.xmlContent = pattern.sub('dbpedia.org/resource/', self.xmlContent)
 	
 	def stripZeros(self, eidPart):
 		# find the id,
@@ -103,7 +107,7 @@ class Cleaner:
 		label = labelGroup.group(0)
 	  	label = unicodedata.normalize('NFKD', label).encode('ASCII', 'ignore').decode('ASCII')
 	  	label = re.sub(r"[\s,!°‘‛’:']", "-", label)
-	  	label = re.sub(r'[\)/“”‟"˝″]', "", label)
+	  	label = re.sub(r'[\)\(/“”‟"˝″]', "", label)
 	  	label = re.sub(r'(-){2,}', "-", label)
 		return label
 
@@ -113,8 +117,8 @@ class Cleaner:
 		label = labelNode.group(2).strip()
 		
 		# find the friendly name 
-		id = re.sub(r'([\w.,\s\']*)', self.friendlyName, label)
-		replacement = "<label friendly='" + id + "'>" + label + "</label>"
+		name = re.sub(r'([\w.,\(\)\s\']*)', self.friendlyName, label)
+		replacement = "<label friendly='" + name + "'>" + label + "</label>"
 		#print replacement.encode('utf8')
 		# add it as an attribute of the label node
 		return replacement
