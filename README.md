@@ -14,12 +14,18 @@ The tool provides **content negociation**, that is :
 
 ### Shortcuts to concept schemes
 - MIMO Thesaurus
+
 http://data.mimo-db.eu/InstrumentsKeywords
+
 `curl -H "Accept: application/ld+json" http://data.mimo-db.eu/InstrumentsKeywords`
+
 - Hornbostel & Sachs Classification
+
 http://data.mimo-db.eu/hs
+
 `curl -H "Accept: application/ld+json" http://data.mimo-db.eu/hs`
 
 ### Shortcuts to concepts
 http://data.mimo-db.eu/InstrumentsKeywords/4360/Trombones
+
 `curl -H "Accept: application/ld+json" http://data.mimo-db.eu/InstrumentsKeywords/4360/Trombones`
