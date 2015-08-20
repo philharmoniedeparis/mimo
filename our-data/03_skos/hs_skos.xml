@@ -6,11 +6,11 @@
          xmlns:dc="http://purl.org/dc/elements/1.1/">
    <skos:ConceptScheme rdf:about="http://data.mimo-db.eu/hs">
       <skos:prefLabel xml:lang="en">Hornbostel - Sachs</skos:prefLabel>
-      <skos:hasTopConcept rdf:resource="http://data.mimo-db.eu/hs/1"/>
-      <skos:hasTopConcept rdf:resource="http://data.mimo-db.eu/hs/94"/>
-      <skos:hasTopConcept rdf:resource="http://data.mimo-db.eu/hs/140"/>
-      <skos:hasTopConcept rdf:resource="http://data.mimo-db.eu/hs/225"/>
-      <skos:hasTopConcept rdf:resource="http://data.mimo-db.eu/hs/6154"/>
+      <skos:hasTopConcept rdf:resource="http://data.mimo-db.eu/hs/1/1-Idiophones"/>
+      <skos:hasTopConcept rdf:resource="http://data.mimo-db.eu/hs/94/2-Membranophones"/>
+      <skos:hasTopConcept rdf:resource="http://data.mimo-db.eu/hs/140/3-Chordophones"/>
+      <skos:hasTopConcept rdf:resource="http://data.mimo-db.eu/hs/225/4-Aerophones"/>
+      <skos:hasTopConcept rdf:resource="http://data.mimo-db.eu/hs/6154/5-Electrophones"/>
    </skos:ConceptScheme>
    <skos:Concept rdf:about="http://data.mimo-db.eu/hs/1/1-Idiophones">
       <skos:topConceptOf rdf:resource="http://data.mimo-db.eu/hs"/>
@@ -6006,5 +6006,46 @@
       <skos:prefLabel xml:lang="en">Simbing</skos:prefLabel>
       <skos:broader rdf:resource="http://data.mimo-db.eu/hs/3254/Harp-lutes-/-Koras"/>
       <skos:exactMatch rdf:resource="http://data.mimo-db.eu/InstrumentsKeywords/5680/323.1-Arched-spike-harps-with-tall-stringholders"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://data.mimo-db.eu/hs//Simbin">
+      <skos:inScheme rdf:resource="http://data.mimo-db.eu/hs"/>
+      <skos:prefLabel xml:lang="de">Simbin</skos:prefLabel>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Harfen"/>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Harfenlauten-/-Koras"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://data.mimo-db.eu/hs//Simbing">
+      <skos:inScheme rdf:resource="http://data.mimo-db.eu/hs"/>
+      <skos:prefLabel xml:lang="en">Simbing</skos:prefLabel>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Harp-lutes-/-koras"/>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Harps"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://data.mimo-db.eu/hs//Simbing">
+      <skos:inScheme rdf:resource="http://data.mimo-db.eu/hs"/>
+      <skos:prefLabel xml:lang="fr">Simbing</skos:prefLabel>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Harpes"/>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Harpes-luths-/-Koras"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://data.mimo-db.eu/hs//Simbing">
+      <skos:inScheme rdf:resource="http://data.mimo-db.eu/hs"/>
+      <skos:prefLabel xml:lang="it">Simbing</skos:prefLabel>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Arpe"/>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Arpe-liuto-/-Kora"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://data.mimo-db.eu/hs//Simbing">
+      <skos:inScheme rdf:resource="http://data.mimo-db.eu/hs"/>
+      <skos:prefLabel xml:lang="nl">Simbing</skos:prefLabel>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Harpen"/>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Harpluiten-/-Kora-s"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://data.mimo-db.eu/hs//Simbing">
+      <skos:inScheme rdf:resource="http://data.mimo-db.eu/hs"/>
+      <skos:prefLabel xml:lang="sv">Simbing</skos:prefLabel>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Harplutor-/-Kora"/>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//Harpor"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://data.mimo-db.eu/hs//Simbing">
+      <skos:inScheme rdf:resource="http://data.mimo-db.eu/hs"/>
+      <skos:prefLabel xml:lang="ca">Simbing</skos:prefLabel>
+      <skos:broader rdf:resource="http://data.mimo-db.eu/hs//"/>
    </skos:Concept>
 </rdf:RDF>

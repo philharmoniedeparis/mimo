@@ -78,7 +78,7 @@
   <!-- list of the top concepts in the thesaurus : whose parent is LEXICON_00002204 -->
   <xsl:template match="term" mode="ConceptSchemeMusicalInstrumentTopConcept">
     <xsl:if test="(relation[type='BT']) and(relation[eid='LEXICON_00002204'])">
-      <skos:hasTopConcept rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}" /> 
+      <skos:hasTopConcept rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}/{label/@friendly}" /> 
     </xsl:if>
   </xsl:template>
   <!-- list of the top concepts -->

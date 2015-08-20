@@ -66,7 +66,7 @@
   <!-- list of the top concepts in the thesaurus : whose parent is LEXICON_00000000 -->
   <xsl:template match="term" mode="ConceptSchemeHornbostelSachsTopConcept">
     <xsl:if test="(relation[type='BT']) and(relation[eid='LEXICON_00000000'])">
-      <skos:hasTopConcept rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}" /> 
+      <skos:hasTopConcept rdf:resource="{$InstrumentsBaseUrl}/{eid/@id}/{label/@friendly}" /> 
     </xsl:if>
   </xsl:template>
   <!-- list of the top concepts -->

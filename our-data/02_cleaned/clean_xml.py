@@ -43,8 +43,8 @@ class Cleaner:
 		self.xmlContent = re.sub(r'<keywords.*?>', '<keywords>', self.xmlContent)
 
 		#remove labels which are not translated 
-		self.xmlContent = re.sub(r'<relation><type>LE</type><label>.*?([\(to be translated\)]).*?</relation>', '', self.xmlContent)
-		self.xmlContent = re.sub(r'<term><eid>LEXICON_([\d]*)_([\d]*)</eid><label>.*?([\(to be translated\)]).*?</term>', '', self.xmlContent)
+		self.xmlContent = re.sub(r'<relation><type>LE</type><label>([\w\s(]+)o be translated\)</label><eid>([\w]*)</eid><language>([\d]{1})</language></relation>', '', self.xmlContent)
+		self.xmlContent = re.sub(r'<term><eid>LEXICON_([\d]*)_([\d]*)</eid><label>([\w\s(]+)o be translated\).*</term>', '', self.xmlContent)
 		self.xmlContent = re.sub(r'(to be translated)', '', self.xmlContent)
 
 	def readDbpediaLinks(self):
