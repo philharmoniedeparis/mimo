@@ -105,8 +105,9 @@ class Cleaner:
 		# find the id, 
 		# return it as an id if it's a concept, as a referent if it's an alternative label
 		label = labelGroup.group(0)
-	  	label = unicodedata.normalize('NFKD', label).encode('ASCII', 'ignore').decode('ASCII')
-	  	label = re.sub(r"[\s,!°‘‛’:']", "-", label)
+	  	# label = unicodedata.normalize('NFKD', label).encode('ASCII', 'ignore').decode('ASCII')
+	  	label = re.sub(r"[\s\/,!°‘‛’:';]", "-", label)
+	  	label = re.sub(r"[+]", "-and-", label)
 	  	label = re.sub(r'[\)\(/“”‟"˝″]', "", label)
 	  	label = re.sub(r'(-){2,}', "-", label)
 		return label
@@ -117,14 +118,15 @@ class Cleaner:
 		label = labelNode.group(2).strip()
 		
 		# find the friendly name 
-		name = re.sub(r'([\w.,\(\)\s\']*)', self.friendlyName, label)
+		name = re.sub(r'([\w.,/\(\)\s\'\-:+;’]*)', self.friendlyName, label)
 		replacement = "<label friendly='" + name + "'>" + label + "</label>"
 		#print replacement.encode('utf8')
 		# add it as an attribute of the label node
 		return replacement
 
 	def addFriendlyNameToLabel(self):
-		pattern = re.compile(r'(<label>)([a-zA-Z0-9.()/,:‘‛“”‟"˝″°!’\'\-\s]*)(</label>)')
+		self.xmlContent = unicodedata.normalize('NFKD', self.xmlContent).encode('ASCII', 'ignore').decode('ASCII')
+		pattern = re.compile(r'(<label>)([\w.()/,:‘‛“”‟"˝″°!’\'\-\s+;]*)(</label>)')
 		self.xmlContent = pattern.sub(self.getFriendlyNameWithLabel, self.xmlContent)
 
 

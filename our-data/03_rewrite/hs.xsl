@@ -18,9 +18,9 @@
       <!-- as well as Musical Instruments (LEXICON_2204), which is not a concept -->
       <xsl:if test="(eid/@id) and ( (relation[type='BT']) or (relation[type='NT']) ) and (eid != 'LEXICON_00000000')">
         <xsl:value-of select="eid/@id" />
-        <xsl:text>&#160;</xsl:text>
+        <xsl:text>&#xA0;</xsl:text>
         <xsl:value-of select="label/@friendly" />
-        <xsl:text>&#xd;</xsl:text>
+        <xsl:text>&#xa;</xsl:text>
       </xsl:if>
     </xsl:for-each>
   </xsl:template>
