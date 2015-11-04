@@ -6,7 +6,7 @@ http://data.mimo-db.eu:9091/sparql
 
 
 ## Visualisation tool 
-http://data.mimo-db.eu
+http://www.mimo-db.eu
 
 The tool provides **content negociation**, that is :
 - accessing an URI with a browser (or any device requesting text/html) will serve the HTML page
@@ -14,16 +14,16 @@ The tool provides **content negociation**, that is :
 
 ### Shortcuts to concept schemes
 ####MIMO Thesaurus
-http://data.mimo-db.eu/InstrumentsKeywords
+http://www.mimo-db.eu/InstrumentsKeywords
 
-`curl -H "Accept: application/ld+json" http://data.mimo-db.eu/InstrumentsKeywords`
+`curl -H "Accept: application/ld+json" http://www.mimo-db.eu/InstrumentsKeywords`
 
 ####Hornbostel & Sachs Classification
-http://data.mimo-db.eu/hs
+http://www.mimo-db.eu/HornbostelAndSachs
 
-`curl -H "Accept: application/ld+json" http://data.mimo-db.eu/hs`
+`curl -H "Accept: application/ld+json" http://www.mimo-db.eu/HornbostelAndSachs`
 
 ### Shortcuts to concepts
-http://data.mimo-db.eu/InstrumentsKeywords/4360/Trombones
+http://www.mimo-db.eu/InstrumentsKeywords/4360
 
-`curl -H "Accept: application/ld+json" http://data.mimo-db.eu/InstrumentsKeywords/4360/Trombones`
+`curl -H "Accept: application/ld+json" http://www.mimo-db.eu/InstrumentsKeywords/4360`
