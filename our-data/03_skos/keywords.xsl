@@ -8,7 +8,7 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   
   <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
-  
+  <xsl:variable name="ConceptSchemeUrl" select="'http://www.mimo-db.eu/InstrumentsKeywords'"></xsl:variable>
   <xsl:variable name="InstrumentsBaseUrl" select="'http://www.mimo-db.eu/InstrumentsKeywords'"></xsl:variable>
   <xsl:variable name="RelatedBaseUrl" select="'http://www.mimo-db.eu/HornbostelAndSachs'"></xsl:variable>
   <xsl:variable name="Languages">
@@ -31,7 +31,7 @@
       xmlns:owl="http://www.w3.org/2002/07/owl#"
       xmlns:dc="http://purl.org/dc/elements/1.1/"	>
       
-      <skos:ConceptScheme rdf:about="{$InstrumentsBaseUrl}">
+      <skos:ConceptScheme rdf:about="{$ConceptSchemeUrl}">
         <xsl:apply-templates select="term" mode="ConceptSchemeMusicalInstrumentName" />
         <xsl:apply-templates select="term" mode="ConceptSchemeMusicalInstrumentTopConcept" />
       </skos:ConceptScheme>
@@ -98,11 +98,11 @@
         <xsl:choose>
           <!-- either top concept -->
           <xsl:when test="(relation[type='BT']) and(relation[eid='LEXICON_00002204'])">
-            <skos:topConceptOf rdf:resource="{$InstrumentsBaseUrl}" /> 
+            <skos:topConceptOf rdf:resource="{$ConceptSchemeUrl}" /> 
           </xsl:when>
           <!-- or simply part of it -->
           <xsl:otherwise>
-            <skos:inScheme rdf:resource="{$InstrumentsBaseUrl}"/>
+            <skos:inScheme rdf:resource="{$ConceptSchemeUrl}"/>
           </xsl:otherwise>
         </xsl:choose>
         <!-- /relation to the concept scheme --> 
