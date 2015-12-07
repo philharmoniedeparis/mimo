@@ -125,7 +125,7 @@ class Cleaner:
 		return replacement
 
 	def addFriendlyNameToLabel(self):
-		self.xmlContent = unicodedata.normalize('NFKD', self.xmlContent).encode('ASCII', 'ignore').decode('ASCII')
+		#self.xmlContent = unicodedata.normalize('NFKD', self.xmlContent).encode('ASCII', 'ignore').decode('ASCII')
 		pattern = re.compile(r'(<label>)([\w.()/,:‘‛“”‟"˝″°!’\'\-\s+;]*)(</label>)')
 		self.xmlContent = pattern.sub(self.getFriendlyNameWithLabel, self.xmlContent)
 
