@@ -20,6 +20,7 @@
     <i key="5">nl</i>
     <i key="6">sv</i>
     <i key="7">ca</i>
+    <i key="8">pl</i>
   </xsl:variable>
   
 
