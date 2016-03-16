@@ -2,7 +2,7 @@
 MIMO linked open data tools
 
 ## SPARQL endpoint 
-http://data.mimo-db.eu:9091/sparql
+http://data.mimo-db.eu
 
 
 ## Visualisation tool 
