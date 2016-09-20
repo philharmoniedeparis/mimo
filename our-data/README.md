@@ -1,10 +1,9 @@
 # traitement des données
 
-## exports
+## exports (depuis Idesia)
 01_idesia/keywords.xml : export MIMO 
-(depuis Idesia)
 
-01_idesia/hs.xml : export HS (depuis Idesia)
+01_idesia/hs.xml : export HS
 
 ## xml nettoyé et enrichi des alignements 01_idesia/MIMOwikipedia.csv
 ###02_cleaned/keywords.xml
