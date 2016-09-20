@@ -4,7 +4,6 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xmlns:dc="http://purl.org/dc/elements/1.1/">
-   
    <skos:ConceptScheme rdf:about="http://www.mimo-db.eu/HornbostelAndSachs">
       <skos:prefLabel xml:lang="en">Hornbostel - Sachs</skos:prefLabel>
       <skos:hasTopConcept rdf:resource="http://www.mimo-db.eu/HornbostelAndSachs/1"/>
