@@ -1,7 +1,8 @@
 # traitement des données
 
 ## exports
-01_idesia/keywords.xml : export MIMO (depuis Idesia)
+01_idesia/keywords.xml : export MIMO 
+(depuis Idesia)
 
 01_idesia/hs.xml : export HS (depuis Idesia)
 
