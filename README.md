@@ -1,7 +1,12 @@
-# MIMO ( Musical Instruments Museum Online )
+# MIMO ( Musical Instruments Museum Online ) 
+http://www.mimo-international.com
+
+This section provides tools, data and information about MIMO and how new museums can join MIMO ( see "harvesting" )
+
+
 This section gives information regarding the access of MIMO vocabulary using linked open technology.
 
-The MIMO Website itself is available at : http://www.mimo-international.com
+
 
 ## SPARQL endpoint 
 http://data.mimo-db.eu
