@@ -6,10 +6,8 @@ This section provides tools, data and information about MIMO and how new museums
 
 Below you'll find specific information on the linked open data access to MIMO Vocabulary.
 
-
 ## SPARQL endpoint 
 http://data.mimo-db.eu
-
 
 ## Visualisation tool 
 http://www.mimo-db.eu
