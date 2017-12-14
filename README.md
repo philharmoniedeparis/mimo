@@ -1,5 +1,7 @@
-# mimo
-MIMO linked open data tools
+# MIMO ( Musical Instruments Museum Online )
+This section gives information regarding the access of MIMO vocabulary using linked open technology.
+
+The MIMO Website itself is available at : http://www.mimo-international.com
 
 ## SPARQL endpoint 
 http://data.mimo-db.eu
