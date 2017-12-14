@@ -4,13 +4,13 @@ http://www.mimo-international.com
 This section provides tools, data and information about MIMO and how new museums can join MIMO ( see "harvesting" folder )
 
 
-Below you'll find specific information on the linked open data access to MIMO Vocabulary.
+Below you'll find specific information on the linked open data access to MIMO Vocabulary (Instrument Keywords and Sachs & Hornbostel Classification).
 
 ## SPARQL endpoint 
 http://data.mimo-db.eu
 
-## Visualisation tool 
-http://www.mimo-db.eu
+## Visualisation tool (using Vizskos)
+http://www.mimo-db.eu/InstrumentsKeywords
 
 The tool provides **content negociation**, that is :
 - accessing an URI with a browser (or any device requesting text/html) will serve the HTML page
