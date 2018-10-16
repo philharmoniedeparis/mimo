@@ -1,3 +1,7 @@
+October, 16 2018
+To generate MIMO vocabularies (in SKOS format), please refer now to Skomos directory.
+
+
 # MIMO ( Musical Instruments Museum Online ) 
 http://www.mimo-international.com
 
