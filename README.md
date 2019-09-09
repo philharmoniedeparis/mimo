@@ -7,8 +7,11 @@ This section provides tools, data and information about MIMO and how new museums
 
 Below you'll find specific information on the linked open data access to MIMO Vocabulary (Instrument Keywords and Sachs & Hornbostel Classification).
 
-## SPARQL endpoint 
+## SPARQL endpoint of the MIMO Thesaurus 
 http://data.mimo-db.eu
+
+## Browse the MIMO Thesaurus ( Using Skosmos )
+http://194.254.239.28/skosmos/InstrumentsKeywords/en/
 
 ## Visualisation tool (using Vizskos)
 http://www.mimo-db.eu/InstrumentsKeywords
