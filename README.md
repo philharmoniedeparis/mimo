@@ -13,7 +13,7 @@ http://data.mimo-db.eu
 ## Browse the MIMO Thesaurus ( Using Skosmos )
 http://194.254.239.28/skosmos/InstrumentsKeywords/en/
 
-## Visualisation tool (using Vizskos)
+## Visualisation tool of the MIMO Thesaurus (using Vizskos)
 http://www.mimo-db.eu/InstrumentsKeywords
 
 The tool provides **content negociation**, that is :
