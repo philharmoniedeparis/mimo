@@ -1,6 +1,6 @@
 
 # MIMO ( Musical Instruments Museum Online ) 
-http://www.mimo-international.com
+http://mimo-international.com
 
 This section provides tools, data and information about MIMO and how new museums can join MIMO ( see "harvesting" folder )
 
