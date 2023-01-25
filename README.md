@@ -11,10 +11,7 @@ Below you'll find specific information on the linked open data access to MIMO Vo
 http://data.mimo-db.eu
 
 ## Browse the MIMO Thesaurus ( Using Skosmos )
-http://194.254.239.28/skosmos/InstrumentsKeywords/en/
-
-## Visualisation tool of the MIMO Thesaurus (using Vizskos)
-http://www.mimo-db.eu/InstrumentsKeywords
+https://vocabulary.mimo-international.com/InstrumentsKeywords/en/
 
 The tool provides **content negociation**, that is :
 - accessing an URI with a browser (or any device requesting text/html) will serve the HTML page
@@ -27,7 +24,7 @@ http://www.mimo-db.eu/InstrumentsKeywords
 `curl -H "Accept: application/ld+json" http://www.mimo-db.eu/InstrumentsKeywords`
 
 ####Hornbostel & Sachs Classification
-http://www.mimo-db.eu/HornbostelAndSachs
+https://vocabulary.mimo-international.com/HornbostelAndSachs/en/
 
 `curl -H "Accept: application/ld+json" http://www.mimo-db.eu/HornbostelAndSachs`
 
